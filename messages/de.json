@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "santo.berlin — Digitale Infrastruktur aus einer Hand",
+    "description": "santo.berlin plant und baut Onlineshops, Netzwerke und digitale Systeme für kleine und mittlere Unternehmen in Berlin. Ein Team, ein Ansprechpartner."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "brands": "Spezialisierungen",
+    "process": "Ablauf",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Projekt anfragen",
+    "skip": "Zum Inhalt springen"
+  },
+  "theme": {
+    "theme": "Darstellung",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
+  },
+  "locale": {
+    "switchTo": "English"
+  },
+  "hero": {
+    "eyebrow": "IT- & Digitalpartner · Berlin Mitte",
+    "title": "Digitale Infrastruktur, die einfach läuft.",
+    "description": "Wir planen, bauen und betreuen Onlineshops, Netzwerke und digitale Systeme für Unternehmen in Berlin. Ein Team, ein Ansprechpartner, kurze Wege.",
+    "ctaPrimary": "Projekt anfragen",
+    "ctaSecondary": "Leistungen ansehen",
+    "stat1Value": "2",
+    "stat1Label": "eigene Spezialseiten",
+    "stat2Value": "1",
+    "stat2Label": "fester Ansprechpartner",
+    "stat3Value": "Berlin",
+    "stat3Label": "Mitte, vor Ort"
+  },
+  "brands": {
+    "eyebrow": "Eigene Spezialseiten",
+    "title": "Für zwei Leistungen betreiben wir eigene Seiten.",
+    "description": "Bei Onlineshops und Netzwerken lohnt sich der genauere Blick. Deshalb bündeln wir dieses Know-how auf zwei eigenen Domains — mit demselben Team und Anspruch wie hier auf santo.berlin.",
+    "shopware": {
+      "name": "shopware.berlin",
+      "tagline": "E-Commerce & Pickware",
+      "description": "Shopware-Onlineshops mit Pickware-Integration für Warenwirtschaft, Versand und Buchhaltung aus einer Software. Vier-Schritte-Prozess von der Beratung bis zum Support — Onlineshops, die verkaufen.",
+      "tags": ["Shopware", "Pickware", "ERP & API", "Migration"],
+      "cta": "Zu shopware.berlin"
+    },
+    "unifi": {
+      "name": "unifi.berlin",
+      "tagline": "Netzwerke & Infrastruktur",
+      "description": "Zertifizierter Ubiquiti-Partner in Berlin: Planung und Installation von WLAN, Videoüberwachung, Zugangskontrolle, Telefonie und Digital Signage aus einer Hand.",
+      "tags": ["WLAN", "Videoüberwachung", "Zugangskontrolle", "Telefonie"],
+      "cta": "Zu unifi.berlin"
+    }
+  },
+  "services": {
+    "eyebrow": "Leistungen",
+    "title": "Was wir bauen und betreuen.",
+    "description": "Von der ersten Idee bis zum laufenden Betrieb — wir decken die gesamte digitale Infrastruktur ab.",
+    "items": [
+      {
+        "title": "Webentwicklung & E-Commerce",
+        "description": "Onlineshops auf Shopware-Basis, Relaunches und individuelle Weiterentwicklung. Spezialisiert über shopware.berlin."
+      },
+      {
+        "title": "Netzwerke & IT-Infrastruktur",
+        "description": "Planung und Installation von WLAN, Kameras und Zugangskontrolle auf Ubiquiti-Basis. Spezialisiert über unifi.berlin."
+      },
+      {
+        "title": "Systeme & Integrationen",
+        "description": "Pickware, ERP- und API-Anbindungen, die Warenwirtschaft, Shop und Lager zuverlässig verbinden."
+      },
+      {
+        "title": "Beratung & Digitalstrategie",
+        "description": "Unabhängige Einschätzung, welche Systeme wirklich gebraucht werden — bevor investiert wird."
+      },
+      {
+        "title": "Wartung & Support",
+        "description": "Laufende Betreuung, Updates und ein fester Ansprechpartner, wenn mal etwas hakt."
+      },
+      {
+        "title": "Migration & Relaunch",
+        "description": "Sauberer Umzug bestehender Shops und Systeme ohne Datenverlust und ohne Downtime."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Ablauf",
+    "title": "Vier Schritte, keine Überraschungen.",
+    "description": "Ein transparenter Prozess von der Beratung bis zum laufenden Support.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Beratung",
+        "description": "Wir hören zu, verstehen den Bedarf und prüfen, was technisch sinnvoll ist."
+      },
+      {
+        "number": "02",
+        "title": "Konzept",
+        "description": "Klarer Plan mit Umfang, Zeitrahmen und Kosten — bevor etwas gebaut wird."
+      },
+      {
+        "number": "03",
+        "title": "Umsetzung",
+        "description": "Entwicklung oder Installation durch dasselbe Team, das beraten hat."
+      },
+      {
+        "number": "04",
+        "title": "Support",
+        "description": "Laufende Betreuung nach dem Launch, mit einem festen Ansprechpartner."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Ein kleines Team, das direkt vor Ort ist.",
+    "description": "santo.berlin ist die Digitalagentur von Adsett & Heilmann GbR mit Sitz in Berlin Mitte. Wir arbeiten bewusst mit einem kleinen, eingespielten Team — dadurch bleiben die Wege kurz und die Verantwortung klar. Wer am Anfang berät, ist auch später für den Betrieb erreichbar.",
+    "points": [
+      "Berlin Mitte, persönlich erreichbar",
+      "Ein Team für Beratung, Umsetzung und Support",
+      "Spezialisierung statt Generalistentum — über unifi.berlin und shopware.berlin"
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Lass uns über dein Projekt sprechen.",
+    "description": "Ob Onlineshop, Netzwerk oder beides — schreib uns kurz, worum es geht. Wir melden uns innerhalb eines Werktags zurück.",
+    "ctaPrimary": "Projekt anfragen",
+    "ctaSecondary": "hallo@santo.berlin",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "locationLabel": "Standort",
+    "location": "Berlin Mitte"
+  },
+  "footer": {
+    "description": "Digitale Infrastruktur aus einer Hand — Onlineshops, Netzwerke, Systeme.",
+    "brandsHeading": "Spezialisierungen",
+    "legalHeading": "Rechtliches",
+    "companyHeading": "Unternehmen",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "rights": "Adsett & Heilmann GbR. Alle Rechte vorbehalten."
+  },
+  "legal": {
+    "back": "Zurück zur Startseite",
+    "impressumTitle": "Impressum",
+    "datenschutzTitle": "Datenschutz"
+  }
+}

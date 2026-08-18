@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "title": "santo.berlin — Digital infrastructure, from one source",
+    "description": "santo.berlin plans and builds online shops, networks and digital systems for small and mid-sized companies in Berlin. One team, one point of contact."
+  },
+  "nav": {
+    "services": "Services",
+    "brands": "Specialisations",
+    "process": "Process",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Start a project",
+    "skip": "Skip to content"
+  },
+  "theme": {
+    "theme": "Appearance",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "locale": {
+    "switchTo": "Deutsch"
+  },
+  "hero": {
+    "eyebrow": "IT & digital partner · Berlin Mitte",
+    "title": "Digital infrastructure that just works.",
+    "description": "We plan, build and maintain online shops, networks and digital systems for companies in Berlin. One team, one point of contact, short paths.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "See services",
+    "stat1Value": "2",
+    "stat1Label": "dedicated sites",
+    "stat2Value": "1",
+    "stat2Label": "dedicated contact",
+    "stat3Value": "Berlin",
+    "stat3Label": "Mitte, on the ground"
+  },
+  "brands": {
+    "eyebrow": "Dedicated sites",
+    "title": "For two services, we run dedicated sites.",
+    "description": "Online shops and networks each deserve a closer look. So we bundle that know-how on two domains of our own — same team, same standard as here on santo.berlin.",
+    "shopware": {
+      "name": "shopware.berlin",
+      "tagline": "E-commerce & Pickware",
+      "description": "Shopware online shops with Pickware integration for inventory, shipping and accounting in one system. A four-step process from consultation to support — shops that actually sell.",
+      "tags": ["Shopware", "Pickware", "ERP & API", "Migration"],
+      "cta": "Visit shopware.berlin"
+    },
+    "unifi": {
+      "name": "unifi.berlin",
+      "tagline": "Networks & infrastructure",
+      "description": "Certified Ubiquiti partner in Berlin: planning and installing Wi-Fi, video surveillance, access control, telephony and digital signage, all from one team.",
+      "tags": ["Wi-Fi", "Video surveillance", "Access control", "Telephony"],
+      "cta": "Visit unifi.berlin"
+    }
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "What we build and maintain.",
+    "description": "From first idea to day-to-day operation — we cover the full stack of digital infrastructure.",
+    "items": [
+      {
+        "title": "Web development & e-commerce",
+        "description": "Shopware-based online shops, relaunches and ongoing custom development. Specialised through shopware.berlin."
+      },
+      {
+        "title": "Networks & IT infrastructure",
+        "description": "Planning and installation of Wi-Fi, cameras and access control on Ubiquiti hardware. Specialised through unifi.berlin."
+      },
+      {
+        "title": "Systems & integrations",
+        "description": "Pickware, ERP and API integrations that reliably connect inventory, shop and warehouse."
+      },
+      {
+        "title": "Consulting & digital strategy",
+        "description": "An independent read on which systems are actually needed — before anything gets bought."
+      },
+      {
+        "title": "Maintenance & support",
+        "description": "Ongoing care, updates and one dedicated contact when something needs fixing."
+      },
+      {
+        "title": "Migration & relaunch",
+        "description": "Clean migration of existing shops and systems, without data loss and without downtime."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "Process",
+    "title": "Four steps, no surprises.",
+    "description": "A transparent process from first consultation to ongoing support.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Consultation",
+        "description": "We listen, understand the need and check what's technically sensible."
+      },
+      {
+        "number": "02",
+        "title": "Concept",
+        "description": "A clear plan with scope, timeline and cost — before anything gets built."
+      },
+      {
+        "number": "03",
+        "title": "Delivery",
+        "description": "Development or installation by the same team that did the consulting."
+      },
+      {
+        "number": "04",
+        "title": "Support",
+        "description": "Ongoing care after launch, with one dedicated point of contact."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A small team that's actually local.",
+    "description": "santo.berlin is the digital agency of Adsett & Heilmann GbR, based in Berlin Mitte. We deliberately work with a small, tight-knit team — that keeps paths short and responsibility clear. Whoever advises you at the start is still reachable for day-to-day operation later.",
+    "points": [
+      "Berlin Mitte, reachable in person",
+      "One team for consulting, delivery and support",
+      "Specialisation over generalism — via unifi.berlin and shopware.berlin"
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project.",
+    "description": "Whether it's an online shop, a network, or both — tell us briefly what it's about. We reply within one business day.",
+    "ctaPrimary": "Start a project",
+    "ctaSecondary": "hallo@santo.berlin",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "locationLabel": "Location",
+    "location": "Berlin Mitte"
+  },
+  "footer": {
+    "description": "Digital infrastructure from one source — online shops, networks, systems.",
+    "brandsHeading": "Specialisations",
+    "legalHeading": "Legal",
+    "companyHeading": "Company",
+    "impressum": "Imprint",
+    "datenschutz": "Privacy policy",
+    "rights": "Adsett & Heilmann GbR. All rights reserved."
+  },
+  "legal": {
+    "back": "Back to homepage",
+    "impressumTitle": "Imprint",
+    "datenschutzTitle": "Privacy policy"
+  }
+}
