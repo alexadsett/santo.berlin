@@ -32,7 +32,7 @@ export function SiteFooter() {
                 <a
                   href="https://unifi-berlin.vercel.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
                 >
                   <span className="size-1.5 rounded-full bg-unifi" />
@@ -43,7 +43,7 @@ export function SiteFooter() {
                 <a
                   href="https://shopware-berlin.vercel.app/"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
                 >
                   <span className="size-1.5 rounded-full bg-shopware" />

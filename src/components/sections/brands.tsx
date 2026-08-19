@@ -31,7 +31,7 @@ export function Brands() {
                 key={card.key}
                 href={card.href}
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="group flex flex-col rounded-card border border-border bg-card p-7 transition-colors hover:border-accent/60"
               >
                 <div className="flex items-start justify-between gap-4">

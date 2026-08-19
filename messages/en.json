@@ -145,7 +145,9 @@
   "legal": {
     "back": "Back to homepage",
     "impressumTitle": "Imprint",
-    "datenschutzTitle": "Privacy policy"
+    "impressumDescription": "Legal notice and provider identification for santo.berlin, Adsett & Heilmann GbR, Berlin Friedrichshain.",
+    "datenschutzTitle": "Privacy policy",
+    "datenschutzDescription": "Privacy policy for santo.berlin: hosting, contact, cookies and Google Analytics."
   },
   "cookies": {
     "description": "We use Google Analytics to understand how the site is used. This sets cookies that only become active after your consent. More in our",

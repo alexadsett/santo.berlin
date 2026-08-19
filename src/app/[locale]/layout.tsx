@@ -10,6 +10,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Analytics } from "@/components/analytics";
+import { JsonLd } from "@/components/json-ld";
+import { SITE_URL, buildAlternates } from "@/lib/seo";
 import "./globals.css";
 
 export function generateStaticParams() {
@@ -25,15 +27,13 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "meta" });
 
   return {
-    metadataBase: undefined,
+    metadataBase: new URL(SITE_URL),
     title: {
       default: t("title"),
       template: "%s · santo.berlin",
     },
     description: t("description"),
-    alternates: {
-      languages: { de: "/", en: "/en" },
-    },
+    alternates: buildAlternates(locale, "/"),
     icons: {
       icon: "/icon.svg",
     },
@@ -41,8 +41,15 @@ export async function generateMetadata({
       title: t("title"),
       description: t("description"),
       siteName: "santo.berlin",
+      url: locale === "de" ? "/" : "/en",
       locale: locale === "de" ? "de_DE" : "en_US",
+      alternateLocale: locale === "de" ? "en_US" : "de_DE",
       type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: t("title"),
+      description: t("description"),
     },
   };
 }
@@ -68,6 +75,7 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col bg-background text-foreground">
+        <JsonLd />
         <ThemeProvider>
           <NextIntlClientProvider messages={messages}>
             <a

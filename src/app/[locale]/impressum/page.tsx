@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ArrowLeft } from "lucide-react";
+import { buildAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -9,7 +10,11 @@ export async function generateMetadata({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "legal" });
-  return { title: t("impressumTitle") };
+  return {
+    title: t("impressumTitle"),
+    description: t("impressumDescription"),
+    alternates: buildAlternates(locale, "/impressum"),
+  };
 }
 
 export default async function ImpressumPage({
@@ -77,7 +82,7 @@ export default async function ImpressumPage({
             <a
               href="https://ec.europa.eu/consumers/odr/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="text-accent hover:underline"
             >
               ec.europa.eu/consumers/odr
