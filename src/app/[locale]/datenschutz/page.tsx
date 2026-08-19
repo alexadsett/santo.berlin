@@ -72,8 +72,11 @@ export default async function DatenschutzPage({
           <h2 className="text-base font-semibold">Cookies &amp; Tracking</h2>
           <p className="mt-2">
             Diese Website setzt keine Analyse- oder Marketing-Cookies ein.
-            Es werden ausschließlich technisch notwendige Daten verarbeitet,
-            die für den Betrieb der Seite erforderlich sind.
+            Es wird lediglich ein technisch notwendiges Cookie
+            (<code>NEXT_LOCALE</code>) gesetzt, das Ihre gewählte
+            Sprache (Deutsch/Englisch) speichert. Dieses Cookie ist zur
+            Bereitstellung der von Ihnen gewählten Funktion erforderlich
+            (§ 25 Abs. 2 Nr. 2 TTDSG) und bedarf keiner Einwilligung.
           </p>
         </section>
 
