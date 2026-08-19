@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { Mark } from "@/components/mark";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { LocaleSwitch } from "@/components/locale-switch";
@@ -12,6 +12,14 @@ export function SiteHeader() {
   const t = useTranslations("nav");
   const tTheme = useTranslations("theme");
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+
+  function handleLogoClick(e: React.MouseEvent) {
+    if (pathname === "/") {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
 
   const links = [
     { href: "#leistungen", label: t("services") },
@@ -26,6 +34,7 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-5 py-3.5 sm:px-8">
         <Link
           href="/"
+          onClick={handleLogoClick}
           className="flex items-center gap-2 font-semibold tracking-tight text-foreground"
         >
           <span className="flex size-8 items-center justify-center rounded-full bg-accent text-accent-foreground">
