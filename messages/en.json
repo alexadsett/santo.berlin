@@ -139,11 +139,18 @@
     "companyHeading": "Company",
     "impressum": "Imprint",
     "datenschutz": "Privacy policy",
+    "cookieSettings": "Cookie settings",
     "rights": "Adsett & Heilmann GbR. All rights reserved."
   },
   "legal": {
     "back": "Back to homepage",
     "impressumTitle": "Imprint",
     "datenschutzTitle": "Privacy policy"
+  },
+  "cookies": {
+    "description": "We use Google Analytics to understand how the site is used. This sets cookies that only become active after your consent. More in our",
+    "privacyLink": "privacy policy",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

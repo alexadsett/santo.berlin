@@ -69,14 +69,35 @@ export default async function DatenschutzPage({
         </section>
 
         <section>
-          <h2 className="text-base font-semibold">Cookies &amp; Tracking</h2>
+          <h2 className="text-base font-semibold">Cookies</h2>
           <p className="mt-2">
-            Diese Website setzt keine Analyse- oder Marketing-Cookies ein.
-            Es wird lediglich ein technisch notwendiges Cookie
-            (<code>NEXT_LOCALE</code>) gesetzt, das Ihre gewählte
-            Sprache (Deutsch/Englisch) speichert. Dieses Cookie ist zur
-            Bereitstellung der von Ihnen gewählten Funktion erforderlich
-            (§ 25 Abs. 2 Nr. 2 TTDSG) und bedarf keiner Einwilligung.
+            Es wird ein technisch notwendiges Cookie (<code>NEXT_LOCALE</code>)
+            gesetzt, das Ihre gewählte Sprache (Deutsch/Englisch) speichert.
+            Dieses Cookie ist zur Bereitstellung der von Ihnen gewählten
+            Funktion erforderlich (§ 25 Abs. 2 Nr. 2 TTDSG) und bedarf keiner
+            Einwilligung.
+          </p>
+        </section>
+
+        <section>
+          <h2 className="text-base font-semibold">Google Analytics</h2>
+          <p className="mt-2">
+            Diese Website nutzt Google Analytics, einen Webanalysedienst der
+            Google Ireland Limited, Gordon House, Barrow Street, Dublin 4,
+            Irland (&quot;Google&quot;). Google Analytics verwendet Cookies,
+            die eine Analyse der Benutzung dieser Website durch Sie
+            ermöglichen (u. a. IP-Adresse (gekürzt), Geräte- und
+            Browserinformationen, besuchte Seiten, Verweildauer). Diese
+            Informationen werden an einen Server von Google, auch in die USA,
+            übertragen und dort gespeichert.
+          </p>
+          <p className="mt-2">
+            Google Analytics wird nur eingesetzt, wenn Sie über den
+            Cookie-Hinweis auf dieser Website eingewilligt haben.
+            Rechtsgrundlage ist in diesem Fall Ihre Einwilligung gemäß
+            Art. 6 Abs. 1 lit. a DSGVO i. V. m. § 25 Abs. 1 TTDSG. Sie können
+            Ihre Einwilligung jederzeit mit Wirkung für die Zukunft über die
+            Cookie-Einstellungen im Seitenfooter widerrufen.
           </p>
         </section>
 

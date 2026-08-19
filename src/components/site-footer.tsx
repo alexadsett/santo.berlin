@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Mark } from "@/components/mark";
+import { CookieSettingsLink } from "@/components/cookie-settings-link";
 
 export function SiteFooter() {
   const t = useTranslations("footer");
@@ -80,6 +81,9 @@ export function SiteFooter() {
                 >
                   hallo@santo.berlin
                 </a>
+              </li>
+              <li>
+                <CookieSettingsLink label={t("cookieSettings")} />
               </li>
             </ul>
           </div>
