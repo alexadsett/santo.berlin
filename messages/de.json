@@ -22,7 +22,7 @@
     "switchTo": "English"
   },
   "hero": {
-    "eyebrow": "IT- & Digitalpartner · Berlin Mitte",
+    "eyebrow": "IT- & Digitalpartner · Berlin Friedrichshain",
     "title": "Digitale Infrastruktur, die einfach läuft.",
     "description": "Wir planen, bauen und betreuen Onlineshops, Netzwerke und digitale Systeme für Unternehmen in Berlin. Ein Team, ein Ansprechpartner, kurze Wege.",
     "ctaPrimary": "Projekt anfragen",
@@ -32,7 +32,7 @@
     "stat2Value": "1",
     "stat2Label": "fester Ansprechpartner",
     "stat3Value": "Berlin",
-    "stat3Label": "Mitte, vor Ort"
+    "stat3Label": "Friedrichshain, vor Ort"
   },
   "brands": {
     "eyebrow": "Eigene Spezialseiten",
@@ -114,9 +114,9 @@
   "about": {
     "eyebrow": "Über uns",
     "title": "Ein kleines Team, das direkt vor Ort ist.",
-    "description": "santo.berlin ist die Digitalagentur von Adsett & Heilmann GbR mit Sitz in Berlin Mitte. Wir arbeiten bewusst mit einem kleinen, eingespielten Team — dadurch bleiben die Wege kurz und die Verantwortung klar. Wer am Anfang berät, ist auch später für den Betrieb erreichbar.",
+    "description": "santo.berlin ist die Digitalagentur von Adsett & Heilmann GbR mit Sitz in Berlin Friedrichshain. Wir arbeiten bewusst mit einem kleinen, eingespielten Team — dadurch bleiben die Wege kurz und die Verantwortung klar. Wer am Anfang berät, ist auch später für den Betrieb erreichbar.",
     "points": [
-      "Berlin Mitte, persönlich erreichbar",
+      "Berlin Friedrichshain, persönlich erreichbar",
       "Ein Team für Beratung, Umsetzung und Support",
       "Spezialisierung statt Generalistentum — über unifi.berlin und shopware.berlin"
     ]
@@ -130,7 +130,7 @@
     "emailLabel": "E-Mail",
     "phoneLabel": "Telefon",
     "locationLabel": "Standort",
-    "location": "Berlin Mitte"
+    "location": "Berlin Friedrichshain"
   },
   "footer": {
     "description": "Digitale Infrastruktur aus einer Hand — Onlineshops, Netzwerke, Systeme.",

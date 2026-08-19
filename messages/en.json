@@ -22,7 +22,7 @@
     "switchTo": "Deutsch"
   },
   "hero": {
-    "eyebrow": "IT & digital partner · Berlin Mitte",
+    "eyebrow": "IT & digital partner · Berlin Friedrichshain",
     "title": "Digital infrastructure that just works.",
     "description": "We plan, build and maintain online shops, networks and digital systems for companies in Berlin. One team, one point of contact, short paths.",
     "ctaPrimary": "Start a project",
@@ -32,7 +32,7 @@
     "stat2Value": "1",
     "stat2Label": "dedicated contact",
     "stat3Value": "Berlin",
-    "stat3Label": "Mitte, on the ground"
+    "stat3Label": "Friedrichshain, on the ground"
   },
   "brands": {
     "eyebrow": "Dedicated sites",
@@ -114,9 +114,9 @@
   "about": {
     "eyebrow": "About",
     "title": "A small team that's actually local.",
-    "description": "santo.berlin is the digital agency of Adsett & Heilmann GbR, based in Berlin Mitte. We deliberately work with a small, tight-knit team — that keeps paths short and responsibility clear. Whoever advises you at the start is still reachable for day-to-day operation later.",
+    "description": "santo.berlin is the digital agency of Adsett & Heilmann GbR, based in Berlin Friedrichshain. We deliberately work with a small, tight-knit team — that keeps paths short and responsibility clear. Whoever advises you at the start is still reachable for day-to-day operation later.",
     "points": [
-      "Berlin Mitte, reachable in person",
+      "Berlin Friedrichshain, reachable in person",
       "One team for consulting, delivery and support",
       "Specialisation over generalism — via unifi.berlin and shopware.berlin"
     ]
@@ -130,7 +130,7 @@
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "locationLabel": "Location",
-    "location": "Berlin Mitte"
+    "location": "Berlin Friedrichshain"
   },
   "footer": {
     "description": "Digital infrastructure from one source — online shops, networks, systems.",

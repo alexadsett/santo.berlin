@@ -91,7 +91,7 @@ export function SiteFooter() {
           </p>
           <p className="flex items-center gap-1.5">
             <span className="size-1.5 rounded-full bg-accent" />
-            Berlin Mitte
+            Berlin Friedrichshain
           </p>
         </div>
       </div>

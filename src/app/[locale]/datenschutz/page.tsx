@@ -40,7 +40,7 @@ export default async function DatenschutzPage({
           <p className="mt-2">
             Adsett &amp; Heilmann GbR
             <br />
-            [Straße und Hausnummer], [PLZ] Berlin
+            Koppenstraße 79, 10243 Berlin
             <br />
             E-Mail: hallo@santo.berlin
           </p>

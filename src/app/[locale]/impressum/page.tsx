@@ -42,9 +42,9 @@ export default async function ImpressumPage({
           <p className="mt-2">
             Adsett &amp; Heilmann GbR
             <br />
-            [Straße und Hausnummer]
+            Koppenstraße 79
             <br />
-            [PLZ] Berlin
+            10243 Berlin
           </p>
         </section>
 
@@ -58,24 +58,15 @@ export default async function ImpressumPage({
         </section>
 
         <section>
-          <h2 className="text-base font-semibold">Vertretungsberechtigte Gesellschafter</h2>
-          <p className="mt-2">[Name der Gesellschafter]</p>
-        </section>
-
-        <section>
-          <h2 className="text-base font-semibold">Umsatzsteuer-ID</h2>
-          <p className="mt-2">
-            Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
-            <br />
-            [USt-IdNr., falls vorhanden]
-          </p>
+          <h2 className="text-base font-semibold">Vertretungsberechtigter Gesellschafter</h2>
+          <p className="mt-2">Tobias Heilmann</p>
         </section>
 
         <section>
           <h2 className="text-base font-semibold">
             Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
           </h2>
-          <p className="mt-2">[Name], Adsett &amp; Heilmann GbR, Anschrift wie oben</p>
+          <p className="mt-2">Tobias Heilmann, Adsett &amp; Heilmann GbR, Anschrift wie oben</p>
         </section>
 
         <section>
