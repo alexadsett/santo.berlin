@@ -18,12 +18,12 @@ export function Location({ lang }: { lang: Lang }) {
           </p>
         </div>
 
-        <div className="relative aspect-square max-w-md justify-self-center overflow-hidden rounded-3xl border border-border bg-background sm:justify-self-end">
+        <div className="relative aspect-square w-full max-w-md justify-self-center overflow-hidden rounded-3xl border border-border bg-background sm:justify-self-end">
           <div
             className="absolute inset-0"
             style={{
               backgroundImage:
-                "radial-gradient(var(--line) 1.5px, transparent 1.5px)",
+                "radial-gradient(var(--border) 1.5px, transparent 1.5px)",
               backgroundSize: "22px 22px",
             }}
             aria-hidden="true"
@@ -32,7 +32,7 @@ export function Location({ lang }: { lang: Lang }) {
             className="pointer-events-none absolute inset-0 rounded-3xl"
             style={{
               background:
-                "radial-gradient(circle at 50% 50%, transparent 30%, var(--background-soft) 78%)",
+                "radial-gradient(circle at 50% 50%, transparent 30%, var(--muted) 78%)",
             }}
             aria-hidden="true"
           />

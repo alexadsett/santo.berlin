@@ -49,7 +49,7 @@ export const nav = {
 
 export const hero = {
   de: {
-    eyebrow: "Shopware Agentur · Berlin Mitte",
+    eyebrow: "Shopware Agentur · Berlin Friedrichshain",
     titleStart: "Onlineshops, die",
     titleEmphasis: "verkaufen",
     titleEnd: "— und Systeme, die mitdenken.",
@@ -66,7 +66,7 @@ export const hero = {
     },
   },
   en: {
-    eyebrow: "Shopware Agency · Berlin Mitte",
+    eyebrow: "Shopware Agency · Berlin Friedrichshain",
     titleStart: "Online stores that",
     titleEmphasis: "sell",
     titleEnd: "— and systems that think ahead.",
@@ -114,7 +114,7 @@ export const about = {
     stats: [
       { label: "Fokus", value: "Shopware", detail: "Entwicklung, Migration & Relaunch" },
       { label: "Partner", value: "Pickware", detail: "Zertifizierte Integration & Support", pickware: true },
-      { label: "Standort", value: "Berlin", detail: "Mitten in der Stadt zuhause" },
+      { label: "Standort", value: "Berlin", detail: "Koppenstraße 79, 10243 Berlin" },
     ],
   },
   en: {
@@ -127,7 +127,7 @@ export const about = {
     stats: [
       { label: "Focus", value: "Shopware", detail: "Development, migration & relaunch" },
       { label: "Partner", value: "Pickware", detail: "Certified integration & support", pickware: true },
-      { label: "Location", value: "Berlin", detail: "Right in the heart of the city" },
+      { label: "Location", value: "Berlin", detail: "Koppenstraße 79, 10243 Berlin" },
     ],
   },
 };
@@ -342,14 +342,14 @@ export const location = {
   de: {
     eyebrow: "Standort",
     title: "Mitten in Berlin zuhause.",
-    body: "Unser Studio liegt im Herzen Berlins. Persönliche Termine vor Ort, kurze Wege und ein Team, das für Rückfragen erreichbar ist – kein anonymes Ticketsystem.",
-    badge: "Berlin Mitte",
+    body: "Unser Studio liegt in der Koppenstraße 79, 10243 Berlin. Persönliche Termine vor Ort, kurze Wege und ein Team, das für Rückfragen erreichbar ist – kein anonymes Ticketsystem.",
+    badge: "Berlin Friedrichshain",
   },
   en: {
     eyebrow: "Location",
     title: "At home in the middle of Berlin.",
-    body: "Our studio sits right in the heart of Berlin. In-person meetings, short distances, and a team that's reachable when you have questions – no anonymous ticket system.",
-    badge: "Berlin Mitte",
+    body: "Our studio is at Koppenstraße 79, 10243 Berlin. In-person meetings, short distances, and a team that's reachable when you have questions – no anonymous ticket system.",
+    badge: "Berlin Friedrichshain",
   },
 };
 
@@ -374,7 +374,7 @@ export const footer = {
     impressum: "Impressum",
     datenschutz: "Datenschutz",
     cookieSettings: "Cookie-Einstellungen",
-    cityLabel: "Berlin Mitte",
+    cityLabel: "Berlin Friedrichshain",
     copyright: (year: number) => `© ${year} santo.berlin – Alle Rechte vorbehalten.`,
     tagline: "Shopware Agentur · Pickware Partner · Berlin",
   },
@@ -385,7 +385,7 @@ export const footer = {
     impressum: "Legal Notice",
     datenschutz: "Privacy Policy",
     cookieSettings: "Cookie settings",
-    cityLabel: "Berlin Mitte",
+    cityLabel: "Berlin Friedrichshain",
     copyright: (year: number) => `© ${year} santo.berlin – All rights reserved.`,
     tagline: "Shopware Agency · Pickware Partner · Berlin",
   },

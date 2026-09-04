@@ -140,7 +140,7 @@
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "locationLabel": "Location",
-    "location": "Berlin Friedrichshain"
+    "location": "Koppenstraße 79, 10243 Berlin"
   },
   "footer": {
     "description": "Digital infrastructure from one source — online shops, networks, systems.",
@@ -289,7 +289,7 @@
       "emailLabel": "Email",
       "whatsappLabel": "WhatsApp",
       "locationLabel": "Location",
-      "location": "Berlin, Germany",
+      "location": "Koppenstraße 79, 10243 Berlin",
       "form": {
         "name": "Name",
         "email": "Email",

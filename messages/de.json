@@ -140,7 +140,7 @@
     "emailLabel": "E-Mail",
     "phoneLabel": "Telefon",
     "locationLabel": "Standort",
-    "location": "Berlin Friedrichshain"
+    "location": "Koppenstraße 79, 10243 Berlin"
   },
   "footer": {
     "description": "Digitale Infrastruktur aus einer Hand — Onlineshops, Netzwerke, Systeme.",
@@ -289,7 +289,7 @@
       "emailLabel": "E-Mail",
       "whatsappLabel": "WhatsApp",
       "locationLabel": "Standort",
-      "location": "Berlin, Deutschland",
+      "location": "Koppenstraße 79, 10243 Berlin",
       "form": {
         "name": "Name",
         "email": "E-Mail",
