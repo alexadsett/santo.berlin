@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
-import { Fraunces } from "next/font/google";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { SITE_URL } from "@/lib/seo";
 import { locales, localizedPath, siteDescription, type Lang } from "@/shopware/content/copy";
-
-const fraunces = Fraunces({
-  variable: "--font-fraunces",
-  subsets: ["latin"],
-  style: ["normal", "italic"],
-  axes: ["opsz", "SOFT", "WONK"],
-});
 
 function isLang(value: string): value is Lang {
   return (locales as readonly string[]).includes(value);
@@ -66,8 +60,12 @@ export default function ShopwareLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={`theme-shopware ${fraunces.variable} flex min-h-full flex-1 flex-col`}>
-      {children}
-    </div>
+    <>
+      <SiteHeader />
+      <main id="main" className="flex-1">
+        {children}
+      </main>
+      <SiteFooter />
+    </>
   );
 }

@@ -6,7 +6,7 @@ export function AboutSection() {
   const t = useTranslations("unifi.about");
 
   return (
-    <section id="about" className="relative border-t border-surface-border py-24">
+    <section id="about" className="relative border-t border-border py-24">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-5">
           <div className="lg:col-span-3">
@@ -16,7 +16,7 @@ export function AboutSection() {
             <h2 className="text-balance mt-3 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
               {t("title")}
             </h2>
-            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted">
+            <p className="mt-4 max-w-xl text-base leading-relaxed text-muted-foreground">
               {t("body")}
             </p>
             <a
@@ -31,11 +31,11 @@ export function AboutSection() {
           </div>
 
           <div className="lg:col-span-2">
-            <div className="rounded-2xl border border-surface-border bg-surface/50 p-8 font-mono text-sm text-muted">
+            <div className="rounded-2xl border border-border bg-card/50 p-8 font-mono text-sm text-muted-foreground">
               <div className="flex items-center gap-1.5">
-                <span className="h-2.5 w-2.5 rounded-full bg-accent-cyan/60" />
                 <span className="h-2.5 w-2.5 rounded-full bg-accent/60" />
-                <span className="h-2.5 w-2.5 rounded-full bg-muted/40" />
+                <span className="h-2.5 w-2.5 rounded-full bg-accent/60" />
+                <span className="h-2.5 w-2.5 rounded-full bg-muted-foreground/40" />
               </div>
               <p className="mt-5 leading-relaxed">
                 <span className="text-accent">$</span> whoami

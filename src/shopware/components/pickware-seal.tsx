@@ -16,7 +16,7 @@ export function PickwareSeal({ className = "" }: { className?: string }) {
         </text>
       </svg>
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-pickware-blue text-cream">
+        <div className="flex h-16 w-16 items-center justify-center rounded-full bg-pickware-blue text-white">
           <Check className="h-7 w-7" strokeWidth={2.5} />
         </div>
       </div>

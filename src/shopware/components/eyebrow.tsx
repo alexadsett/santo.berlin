@@ -10,10 +10,10 @@ export function Eyebrow({
   children: React.ReactNode;
 }) {
   return (
-    <span className="inline-flex items-center gap-2 rounded-full border border-line bg-cream px-4 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-ink-muted">
+    <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-1.5 text-xs font-medium uppercase tracking-[0.14em] text-muted-foreground">
       {Icon ? (
         <Icon
-          className={`h-3.5 w-3.5 ${tone === "pickware" ? "text-pickware-blue" : "text-gold"}`}
+          className={`h-3.5 w-3.5 ${tone === "pickware" ? "text-pickware-blue" : "text-accent"}`}
           strokeWidth={2.25}
         />
       ) : null}

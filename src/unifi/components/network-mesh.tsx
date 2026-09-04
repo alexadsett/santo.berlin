@@ -35,13 +35,9 @@ export function NetworkMesh({ className }: { className?: string }) {
     >
       <defs>
         <linearGradient id="mesh-line" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#2f8bff" stopOpacity="0.5" />
-          <stop offset="100%" stopColor="#22d3ee" stopOpacity="0.05" />
+          <stop offset="0%" style={{ stopColor: "var(--accent)", stopOpacity: 0.5 }} />
+          <stop offset="100%" style={{ stopColor: "var(--accent)", stopOpacity: 0.05 }} />
         </linearGradient>
-        <radialGradient id="mesh-node">
-          <stop offset="0%" stopColor="#7cc4ff" />
-          <stop offset="100%" stopColor="#2f8bff" />
-        </radialGradient>
       </defs>
 
       {LINKS.map(([a, b], i) => (
@@ -62,12 +58,10 @@ export function NetworkMesh({ className }: { className?: string }) {
             cx={n.x}
             cy={n.y}
             r="18"
-            fill="#2f8bff"
-            opacity="0.08"
             className="animate-pulse-slow"
-            style={{ animationDelay: `${i * 0.4}s` }}
+            style={{ fill: "var(--accent)", opacity: 0.08, animationDelay: `${i * 0.4}s` }}
           />
-          <circle cx={n.x} cy={n.y} r="4" fill="url(#mesh-node)" />
+          <circle cx={n.x} cy={n.y} r="4" style={{ fill: "var(--accent)" }} />
         </g>
       ))}
     </svg>

@@ -70,7 +70,7 @@
     "items": [
       {
         "title": "Webentwicklung & E-Commerce",
-        "description": "Onlineshops auf Shopware-Basis, Relaunches und individuelle Weiterentwicklung. Spezialisiert über shopware.berlin."
+        "description": "Individuelle Websites und Onlineshops – von der eigenen Unternehmensseite bis zum Shopware-Shop mit Pickware-Integration."
       },
       {
         "title": "Netzwerke & IT-Infrastruktur",
@@ -86,7 +86,7 @@
       },
       {
         "title": "Wartung & Support",
-        "description": "Laufende Betreuung, Updates und ein fester Ansprechpartner, wenn mal etwas hakt."
+        "description": "Laufende Betreuung, Updates, Hosting und ein fester Ansprechpartner, wenn mal etwas hakt."
       },
       {
         "title": "Migration & Relaunch",
@@ -169,14 +169,6 @@
     "meta": {
       "title": "unifi.berlin – Zertifizierter Ubiquiti Installationspartner in Berlin",
       "description": "Professionelle Planung, Installation und Wartung von UniFi- und Ubiquiti-Netzwerken für Unternehmen und Privatkunden in Berlin. Network, Protect, Access, Talk & Connect – alles aus einer Hand."
-    },
-    "nav": {
-      "services": "Leistungen",
-      "products": "Produkte",
-      "process": "Ablauf",
-      "about": "Über uns",
-      "contact": "Kontakt",
-      "cta": "Beratung anfragen"
     },
     "hero": {
       "eyebrow": "Zertifizierter Ubiquiti Installationspartner · Berlin",
@@ -306,24 +298,6 @@
         "submit": "Anfrage senden",
         "note": "Wir antworten in der Regel innerhalb eines Werktags."
       }
-    },
-    "footer": {
-      "tagline": "Zertifizierter Ubiquiti Installationspartner in Berlin.",
-      "servicesTitle": "Leistungen",
-      "companyTitle": "Unternehmen",
-      "legalTitle": "Rechtliches",
-      "impressum": "Impressum",
-      "privacy": "Datenschutz",
-      "rights": "Alle Rechte vorbehalten."
-    },
-    "legal": {
-      "impressumTitle": "Impressum",
-      "datenschutzTitle": "Datenschutzerklärung"
-    },
-    "theme": {
-      "light": "Hell",
-      "dark": "Dunkel",
-      "system": "System"
     }
   }
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
-import { SiteHeader } from "@/unifi/components/site-header";
-import { SiteFooter } from "@/unifi/components/site-footer";
+import { SiteHeader } from "@/components/site-header";
+import { SiteFooter } from "@/components/site-footer";
 import { SITE_URL, buildAlternates } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -16,7 +16,7 @@ export async function generateMetadata({
     metadataBase: new URL(SITE_URL),
     title: {
       default: t("title"),
-      template: `%s · unifi.berlin`,
+      template: `%s · santo.berlin`,
     },
     description: t("description"),
     alternates: buildAlternates(locale, "/unifi"),
@@ -26,7 +26,7 @@ export async function generateMetadata({
     openGraph: {
       title: t("title"),
       description: t("description"),
-      siteName: "unifi.berlin",
+      siteName: "santo.berlin",
       locale,
       type: "website",
     },
@@ -39,12 +39,12 @@ export default function UnifiLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="theme-unifi flex min-h-full flex-1 flex-col">
+    <>
       <SiteHeader />
       <main id="main" className="flex-1">
         {children}
       </main>
       <SiteFooter />
-    </div>
+    </>
   );
 }

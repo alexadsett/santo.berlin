@@ -70,7 +70,7 @@
     "items": [
       {
         "title": "Web development & e-commerce",
-        "description": "Shopware-based online shops, relaunches and ongoing custom development. Specialised through shopware.berlin."
+        "description": "Custom websites and online shops – from your own company site to a full Shopware store with Pickware integration."
       },
       {
         "title": "Networks & IT infrastructure",
@@ -86,7 +86,7 @@
       },
       {
         "title": "Maintenance & support",
-        "description": "Ongoing care, updates and one dedicated contact when something needs fixing."
+        "description": "Ongoing care, updates, hosting and one dedicated contact when something needs fixing."
       },
       {
         "title": "Migration & relaunch",
@@ -169,14 +169,6 @@
     "meta": {
       "title": "unifi.berlin – Certified Ubiquiti Installation Partner in Berlin",
       "description": "Professional planning, installation and maintenance of UniFi and Ubiquiti networks for businesses and homes in Berlin. Network, Protect, Access, Talk & Connect – all from one partner."
-    },
-    "nav": {
-      "services": "Services",
-      "products": "Products",
-      "process": "Process",
-      "about": "About",
-      "contact": "Contact",
-      "cta": "Get a consultation"
     },
     "hero": {
       "eyebrow": "Certified Ubiquiti Installation Partner · Berlin",
@@ -306,24 +298,6 @@
         "submit": "Send request",
         "note": "We usually reply within one business day."
       }
-    },
-    "footer": {
-      "tagline": "Certified Ubiquiti installation partner in Berlin.",
-      "servicesTitle": "Services",
-      "companyTitle": "Company",
-      "legalTitle": "Legal",
-      "impressum": "Legal notice",
-      "privacy": "Privacy policy",
-      "rights": "All rights reserved."
-    },
-    "legal": {
-      "impressumTitle": "Legal Notice (Impressum)",
-      "datenschutzTitle": "Privacy Policy"
-    },
-    "theme": {
-      "light": "Light",
-      "dark": "Dark",
-      "system": "System"
     }
   }
 }

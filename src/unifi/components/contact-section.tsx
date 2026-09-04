@@ -36,7 +36,7 @@ export function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative border-t border-surface-border bg-background-elevated py-24"
+      className="relative border-t border-border bg-muted py-24"
     >
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl">
@@ -46,7 +46,7 @@ export function ContactSection() {
           <h2 className="text-balance mt-3 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
             {t("title")}
           </h2>
-          <p className="mt-4 text-base text-muted">{t("subtitle")}</p>
+          <p className="mt-4 text-base text-muted-foreground">{t("subtitle")}</p>
         </div>
 
         <div className="mt-12 grid grid-cols-1 gap-10 lg:grid-cols-5">
@@ -54,12 +54,12 @@ export function ContactSection() {
             {cards.map((card) => {
               const Icon = card.icon;
               const content = (
-                <div className="flex items-center gap-4 rounded-xl border border-surface-border bg-surface/50 p-4 transition-colors hover:border-accent/40">
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-soft text-accent">
+                <div className="flex items-center gap-4 rounded-xl border border-border bg-card/50 p-4 transition-colors hover:border-accent/40">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent/10 text-accent">
                     <Icon className="h-4 w-4" />
                   </div>
                   <div className="min-w-0">
-                    <p className="text-xs text-muted">{card.label}</p>
+                    <p className="text-xs text-muted-foreground">{card.label}</p>
                     <p className="truncate text-sm font-medium text-foreground">
                       {card.value}
                     </p>

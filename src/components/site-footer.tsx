@@ -29,26 +29,22 @@ export function SiteFooter() {
             </div>
             <ul className="mt-4 space-y-2.5 text-sm text-muted-foreground">
               <li>
-                <a
-                  href="https://unifi-berlin.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/unifi"
                   className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
                 >
                   <span className="size-1.5 rounded-full bg-unifi" />
                   {tBrands("unifi.name")}
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="https://shopware-berlin.vercel.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href="/shopware"
                   className="inline-flex items-center gap-2 transition-colors hover:text-foreground"
                 >
                   <span className="size-1.5 rounded-full bg-shopware" />
                   {tBrands("shopware.name")}
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -22,11 +22,11 @@ export function SiteHeader() {
   }
 
   const links = [
-    { href: "#leistungen", label: t("services") },
-    { href: "#marken", label: t("brands") },
-    { href: "#ablauf", label: t("process") },
-    { href: "#ueber-uns", label: t("about") },
-    { href: "#kontakt", label: t("contact") },
+    { href: "/#leistungen", label: t("services") },
+    { href: "/#marken", label: t("brands") },
+    { href: "/#ablauf", label: t("process") },
+    { href: "/#ueber-uns", label: t("about") },
+    { href: "/#kontakt", label: t("contact") },
   ];
 
   return (
@@ -45,13 +45,13 @@ export function SiteHeader() {
 
         <nav className="hidden items-center gap-7 text-sm font-medium text-foreground/70 lg:flex">
           {links.map((link) => (
-            <a
+            <Link
               key={link.href}
               href={link.href}
               className="transition-colors hover:text-foreground"
             >
               {link.label}
-            </a>
+            </Link>
           ))}
         </nav>
 
@@ -65,12 +65,12 @@ export function SiteHeader() {
               system: tTheme("system"),
             }}
           />
-          <a
-            href="#kontakt"
+          <Link
+            href="/#kontakt"
             className="rounded-full bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground transition-opacity hover:opacity-90"
           >
             {t("cta")}
-          </a>
+          </Link>
         </div>
 
         <button
@@ -88,14 +88,14 @@ export function SiteHeader() {
         <div className="border-t border-border px-5 py-4 lg:hidden">
           <nav className="flex flex-col gap-4 text-sm font-medium text-foreground/80">
             {links.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
                 className="transition-colors hover:text-foreground"
               >
                 {link.label}
-              </a>
+              </Link>
             ))}
           </nav>
           <div className="mt-4 flex items-center justify-between gap-3">
@@ -109,13 +109,13 @@ export function SiteHeader() {
               }}
             />
           </div>
-          <a
-            href="#kontakt"
+          <Link
+            href="/#kontakt"
             onClick={() => setOpen(false)}
             className="mt-4 block rounded-full bg-accent px-4 py-2.5 text-center text-sm font-semibold text-accent-foreground"
           >
             {t("cta")}
-          </a>
+          </Link>
         </div>
       )}
     </header>
