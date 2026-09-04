@@ -135,8 +135,6 @@
     "eyebrow": "Kontakt",
     "title": "Lass uns über dein Projekt sprechen.",
     "description": "Ob Onlineshop, Netzwerk oder beides — schreib uns kurz, worum es geht. Wir melden uns innerhalb eines Werktags zurück.",
-    "ctaPrimary": "Projekt anfragen",
-    "ctaSecondary": "hallo@santo.berlin",
     "emailLabel": "E-Mail",
     "phoneLabel": "Telefon",
     "locationLabel": "Standort",
@@ -289,15 +287,19 @@
       "emailLabel": "E-Mail",
       "whatsappLabel": "WhatsApp",
       "locationLabel": "Standort",
-      "location": "Koppenstraße 79, 10243 Berlin",
-      "form": {
-        "name": "Name",
-        "email": "E-Mail",
-        "message": "Nachricht",
-        "messagePlaceholder": "Erzählen Sie uns kurz von Ihrem Projekt – Anzahl Räume, gewünschte Produkte, Zeitrahmen …",
-        "submit": "Anfrage senden",
-        "note": "Wir antworten in der Regel innerhalb eines Werktags."
-      }
+      "location": "Koppenstraße 79, 10243 Berlin"
     }
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzähl uns kurz von deinem Projekt …",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet …",
+    "success": "Danke! Wir haben deine Nachricht erhalten und melden uns innerhalb eines Werktags.",
+    "error": "Da ist etwas schiefgelaufen. Schreib uns gerne direkt an hallo@santo.berlin.",
+    "note": "Wir antworten in der Regel innerhalb eines Werktags.",
+    "honeypotLabel": "Bitte leer lassen"
   }
 }

@@ -114,7 +114,7 @@ export const about = {
     stats: [
       { label: "Fokus", value: "Shopware", detail: "Entwicklung, Migration & Relaunch" },
       { label: "Partner", value: "Pickware", detail: "Zertifizierte Integration & Support", pickware: true },
-      { label: "Standort", value: "Berlin", detail: "Koppenstraße 79, 10243 Berlin" },
+      { label: "Standort", value: "Berlin", detail: "Koppenstraße 79, 10243 Berlin", maps: true },
     ],
   },
   en: {
@@ -127,7 +127,7 @@ export const about = {
     stats: [
       { label: "Focus", value: "Shopware", detail: "Development, migration & relaunch" },
       { label: "Partner", value: "Pickware", detail: "Certified integration & support", pickware: true },
-      { label: "Location", value: "Berlin", detail: "Koppenstraße 79, 10243 Berlin" },
+      { label: "Location", value: "Berlin", detail: "Koppenstraße 79, 10243 Berlin", maps: true },
     ],
   },
 };

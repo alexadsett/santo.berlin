@@ -135,8 +135,6 @@
     "eyebrow": "Contact",
     "title": "Let's talk about your project.",
     "description": "Whether it's an online shop, a network, or both — tell us briefly what it's about. We reply within one business day.",
-    "ctaPrimary": "Start a project",
-    "ctaSecondary": "hallo@santo.berlin",
     "emailLabel": "Email",
     "phoneLabel": "Phone",
     "locationLabel": "Location",
@@ -289,15 +287,19 @@
       "emailLabel": "Email",
       "whatsappLabel": "WhatsApp",
       "locationLabel": "Location",
-      "location": "Koppenstraße 79, 10243 Berlin",
-      "form": {
-        "name": "Name",
-        "email": "Email",
-        "message": "Message",
-        "messagePlaceholder": "Tell us a little about your project – number of rooms, products you need, timeline …",
-        "submit": "Send request",
-        "note": "We usually reply within one business day."
-      }
+      "location": "Koppenstraße 79, 10243 Berlin"
     }
+  },
+  "contactForm": {
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "Tell us a bit about your project …",
+    "submit": "Send request",
+    "sending": "Sending …",
+    "success": "Thanks! We've received your message and will get back to you within one business day.",
+    "error": "Something went wrong. Feel free to email us directly at hallo@santo.berlin.",
+    "note": "We usually reply within one business day.",
+    "honeypotLabel": "Leave this field empty"
   }
 }

@@ -1,7 +1,8 @@
 import { useTranslations } from "next-intl";
 import { Phone, Mail, MessageCircle, MapPin } from "lucide-react";
-import { ContactForm } from "@/unifi/components/contact-form";
+import { ContactForm } from "@/components/contact-form";
 import { siteConfig } from "@/unifi/lib/site-config";
+import { GOOGLE_MAPS_URL } from "@/lib/constants";
 
 export function ContactSection() {
   const t = useTranslations("unifi.contact");
@@ -29,7 +30,7 @@ export function ContactSection() {
       icon: MapPin,
       label: t("locationLabel"),
       value: t("location"),
-      href: undefined,
+      href: GOOGLE_MAPS_URL,
     },
   ];
 
@@ -77,7 +78,7 @@ export function ContactSection() {
           </div>
 
           <div className="lg:col-span-3">
-            <ContactForm />
+            <ContactForm source="unifi" />
           </div>
         </div>
       </div>
