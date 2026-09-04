@@ -141,27 +141,57 @@ export const services = {
       {
         title: "Shopware Entwicklung",
         description: "Individuelle Onlineshops auf Shopware – von der Konzeption über das Design bis zur technischen Umsetzung.",
+        details: [
+          "Konzeption & Informationsarchitektur",
+          "Individuelles Design & UX",
+          "Technische Umsetzung & Testing",
+        ],
       },
       {
         title: "Pickware Integration",
         description: "Lagerverwaltung, Versand und Buchhaltung direkt im Shop – wir richten Pickware passgenau für euren Betrieb ein.",
         pickware: true,
+        details: [
+          "Lagerverwaltung & Bestandsführung",
+          "Versand direkt aus dem Shop",
+          "Automatisierte Buchhaltung",
+        ],
       },
       {
         title: "Migration & Relaunch",
         description: "Umzug von einem bestehenden System auf Shopware, sauber geplant und ohne Umsatzeinbußen im laufenden Betrieb.",
+        details: [
+          "Datenübernahme ohne Verluste",
+          "SEO-sicherer Umzug inkl. Redirects",
+          "Umsetzung ohne Downtime",
+        ],
       },
       {
         title: "Plugins & Individualentwicklung",
         description: "Maßgeschneiderte Erweiterungen für Prozesse, die Standard-Plugins nicht abdecken.",
+        details: [
+          "Maßgeschneiderte Funktionen",
+          "Anbindung an interne Prozesse",
+          "Wartbare, dokumentierte Lösungen",
+        ],
       },
       {
         title: "Schnittstellen & ERP",
         description: "Anbindung von Warenwirtschaft, Marktplätzen und Zahlungsdienstleistern an euren Shopware-Shop.",
+        details: [
+          "Warenwirtschaft & ERP-Anbindung",
+          "Marktplatz-Integrationen (Amazon, eBay …)",
+          "Zahlungsdienstleister-Anbindung",
+        ],
       },
       {
         title: "Betreuung & Support",
         description: "Laufende Pflege, Updates und ein Ansprechpartner, wenn im Tagesgeschäft schnell Hilfe gebraucht wird.",
+        details: [
+          "Laufende Updates & Sicherheits-Patches",
+          "Monitoring & Performance",
+          "Fester Ansprechpartner",
+        ],
       },
     ],
   },
@@ -173,27 +203,57 @@ export const services = {
       {
         title: "Shopware Development",
         description: "Custom online stores built on Shopware – from concept through design to technical implementation.",
+        details: [
+          "Concept & information architecture",
+          "Custom design & UX",
+          "Technical implementation & testing",
+        ],
       },
       {
         title: "Pickware Integration",
         description: "Warehouse management, shipping, and accounting built right into the shop – we set up Pickware to fit your operations exactly.",
         pickware: true,
+        details: [
+          "Warehouse management & stock control",
+          "Shipping straight from the shop",
+          "Automated accounting",
+        ],
       },
       {
         title: "Migration & Relaunch",
         description: "Moving from an existing system to Shopware, carefully planned with no lost revenue while your shop stays live.",
+        details: [
+          "Data migration without losses",
+          "SEO-safe move, redirects included",
+          "Zero-downtime rollout",
+        ],
       },
       {
         title: "Plugins & Custom Development",
         description: "Bespoke extensions for processes that off-the-shelf plugins simply don't cover.",
+        details: [
+          "Purpose-built functionality",
+          "Hooks into your internal processes",
+          "Maintainable, documented solutions",
+        ],
       },
       {
         title: "Integrations & ERP",
         description: "Connecting inventory systems, marketplaces, and payment providers to your Shopware store.",
+        details: [
+          "Inventory & ERP integration",
+          "Marketplace integrations (Amazon, eBay …)",
+          "Payment provider integration",
+        ],
       },
       {
         title: "Support & Maintenance",
         description: "Ongoing maintenance, updates, and a single point of contact for when you need fast help in daily business.",
+        details: [
+          "Ongoing updates & security patches",
+          "Monitoring & performance",
+          "One dedicated point of contact",
+        ],
       },
     ],
   },
@@ -208,18 +268,42 @@ export const process = {
       {
         title: "Erstgespräch & Analyse",
         description: "Wir hören zu: Ziele, bestehende Systeme und was euer Shop wirklich leisten muss.",
+        duration: "30–60 Minuten",
+        details: [
+          "Ziele und Anforderungen klären",
+          "Bestandsaufnahme bestehender Systeme",
+          "Erste Einschätzung zu Umfang und Zeitrahmen",
+        ],
       },
       {
         title: "Konzept & Design",
         description: "Struktur, User Experience und Design – abgestimmt auf eure Marke und eure Kund:innen.",
+        duration: "1–2 Wochen",
+        details: [
+          "Struktur & Informationsarchitektur",
+          "Design-Entwürfe abgestimmt auf eure Marke",
+          "Freigabe vor Entwicklungsstart",
+        ],
       },
       {
         title: "Entwicklung & Integration",
         description: "Umsetzung in Shopware, inklusive Pickware- und Systemanbindungen, mit regelmäßigen Zwischenständen.",
+        duration: "2–8 Wochen, je nach Umfang",
+        details: [
+          "Umsetzung in Shopware",
+          "Pickware- und Systemanbindungen",
+          "Regelmäßige Zwischenstände zum Testen",
+        ],
       },
       {
         title: "Launch & Betreuung",
         description: "Sauberer Go-live und danach ein Team, das erreichbar bleibt – für Updates, Fragen und Weiterentwicklung.",
+        duration: "Laufend",
+        details: [
+          "Sauberer Go-live ohne Downtime",
+          "Laufende Wartung und Updates",
+          "Fester Ansprechpartner für Weiterentwicklung",
+        ],
       },
     ],
   },
@@ -231,18 +315,42 @@ export const process = {
       {
         title: "Discovery & analysis",
         description: "We start by listening: your goals, existing systems, and what your shop actually needs to do.",
+        duration: "30–60 minutes",
+        details: [
+          "Clarify goals and requirements",
+          "Review of existing systems",
+          "Initial read on scope and timeline",
+        ],
       },
       {
         title: "Concept & design",
         description: "Structure, user experience, and design – tailored to your brand and your customers.",
+        duration: "1–2 weeks",
+        details: [
+          "Structure & information architecture",
+          "Design drafts tailored to your brand",
+          "Sign-off before development starts",
+        ],
       },
       {
         title: "Development & integration",
         description: "Built in Shopware, including Pickware and system integrations, with regular check-ins along the way.",
+        duration: "2–8 weeks, depending on scope",
+        details: [
+          "Built in Shopware",
+          "Pickware and system integrations",
+          "Regular check-ins to test progress",
+        ],
       },
       {
         title: "Launch & support",
         description: "A clean go-live, and a team that stays reachable afterwards – for updates, questions, and further development.",
+        duration: "Ongoing",
+        details: [
+          "Clean go-live, zero downtime",
+          "Ongoing maintenance and updates",
+          "One dedicated contact for further development",
+        ],
       },
     ],
   },

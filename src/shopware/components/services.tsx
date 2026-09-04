@@ -1,6 +1,8 @@
 import {
   Blocks,
   Boxes,
+  Check,
+  ChevronDown,
   LayoutTemplate,
   LifeBuoy,
   RefreshCw,
@@ -34,7 +36,7 @@ export function Services({ lang }: { lang: Lang }) {
           {t.items.map((service, i) => {
             const Icon = icons[i];
             return (
-              <div
+              <details
                 key={service.title}
                 className={`group rounded-2xl border p-7 transition-colors ${
                   service.pickware
@@ -42,30 +44,60 @@ export function Services({ lang }: { lang: Lang }) {
                     : "border-border bg-background hover:border-foreground/20"
                 }`}
               >
-                <div
-                  className={`flex h-11 w-11 items-center justify-center rounded-xl transition-colors ${
-                    service.pickware
-                      ? "bg-pickware-blue text-white"
-                      : "bg-foreground text-background group-hover:bg-accent group-hover:text-foreground"
+                <summary className="cursor-pointer list-none marker:content-none">
+                  <div className="flex items-start justify-between gap-3">
+                    <div
+                      className={`flex h-11 w-11 items-center justify-center rounded-xl transition-colors ${
+                        service.pickware
+                          ? "bg-pickware-blue text-white"
+                          : "bg-foreground text-background group-hover:bg-accent group-hover:text-foreground"
+                      }`}
+                    >
+                      <Icon className="h-5 w-5" strokeWidth={2} />
+                    </div>
+                    <ChevronDown
+                      className={`h-4 w-4 shrink-0 transition-transform group-open:rotate-180 ${
+                        service.pickware ? "text-pickware-navy/50" : "text-muted-foreground"
+                      }`}
+                      strokeWidth={2.25}
+                    />
+                  </div>
+                  <h3
+                    className={`mt-5 text-lg font-medium ${
+                      service.pickware ? "text-pickware-navy" : "text-foreground"
+                    }`}
+                  >
+                    {service.title}
+                  </h3>
+                  <p
+                    className={`mt-2 text-sm leading-relaxed ${
+                      service.pickware ? "text-pickware-navy/70" : "text-muted-foreground"
+                    }`}
+                  >
+                    {service.description}
+                  </p>
+                </summary>
+
+                <ul
+                  className={`mt-4 space-y-2 border-t pt-4 text-sm ${
+                    service.pickware ? "border-pickware-blue/20" : "border-border"
                   }`}
                 >
-                  <Icon className="h-5 w-5" strokeWidth={2} />
-                </div>
-                <h3
-                  className={`mt-5 text-lg font-medium ${
-                    service.pickware ? "text-pickware-navy" : "text-foreground"
-                  }`}
-                >
-                  {service.title}
-                </h3>
-                <p
-                  className={`mt-2 text-sm leading-relaxed ${
-                    service.pickware ? "text-pickware-navy/70" : "text-muted-foreground"
-                  }`}
-                >
-                  {service.description}
-                </p>
-              </div>
+                  {service.details.map((detail) => (
+                    <li key={detail} className="flex items-start gap-2">
+                      <Check
+                        className={`mt-0.5 h-3.5 w-3.5 shrink-0 ${
+                          service.pickware ? "text-pickware-blue" : "text-accent"
+                        }`}
+                        strokeWidth={2.5}
+                      />
+                      <span className={service.pickware ? "text-pickware-navy/80" : "text-muted-foreground"}>
+                        {detail}
+                      </span>
+                    </li>
+                  ))}
+                </ul>
+              </details>
             );
           })}
         </div>
