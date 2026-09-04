@@ -300,6 +300,7 @@
     "success": "Danke! Wir haben deine Nachricht erhalten und melden uns innerhalb eines Werktags.",
     "error": "Da ist etwas schiefgelaufen. Schreib uns gerne direkt an hallo@santo.berlin.",
     "note": "Wir antworten in der Regel innerhalb eines Werktags.",
-    "honeypotLabel": "Bitte leer lassen"
+    "honeypotLabel": "Bitte leer lassen",
+    "validationError": "Bitte überprüfe deine Eingaben — die Nachricht sollte mindestens ein paar Worte enthalten."
   }
 }

@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Send, CheckCircle2, AlertCircle } from "lucide-react";
 
-type Status = "idle" | "sending" | "success" | "error";
+type Status = "idle" | "sending" | "success" | "validation-error" | "error";
 
 export function ContactForm({ source }: { source: "home" | "unifi" | "shopware" }) {
   const t = useTranslations("contactForm");
@@ -31,6 +31,10 @@ export function ContactForm({ source }: { source: "home" | "unifi" | "shopware" 
         }),
       });
 
+      if (res.status >= 400 && res.status < 500) {
+        setStatus("validation-error");
+        return;
+      }
       if (!res.ok) throw new Error("request_failed");
       setStatus("success");
       form.reset();
@@ -72,6 +76,7 @@ export function ContactForm({ source }: { source: "home" | "unifi" | "shopware" 
             id="name"
             name="name"
             required
+            minLength={2}
             className="mt-1.5 w-full rounded-lg border border-border bg-background px-3.5 py-2.5 text-sm text-foreground outline-none focus:border-accent"
           />
         </div>
@@ -98,6 +103,7 @@ export function ContactForm({ source }: { source: "home" | "unifi" | "shopware" 
           name="message"
           rows={5}
           required
+          minLength={5}
           placeholder={t("messagePlaceholder")}
           className="mt-1.5 w-full resize-none rounded-lg border border-border bg-background px-3.5 py-2.5 text-sm text-foreground outline-none focus:border-accent"
         />
@@ -115,10 +121,10 @@ export function ContactForm({ source }: { source: "home" | "unifi" | "shopware" 
         <p className="text-xs text-muted-foreground">{t("note")}</p>
       </div>
 
-      {status === "error" && (
+      {(status === "error" || status === "validation-error") && (
         <p className="mt-4 flex items-center gap-2 text-sm text-red-600 dark:text-red-400">
           <AlertCircle className="size-4 shrink-0" />
-          {t("error")}
+          {status === "validation-error" ? t("validationError") : t("error")}
         </p>
       )}
     </form>
