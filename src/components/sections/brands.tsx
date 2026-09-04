@@ -1,10 +1,11 @@
 import { useTranslations } from "next-intl";
 import { ArrowUpRight } from "lucide-react";
 import { Mark } from "@/components/mark";
+import { Link } from "@/i18n/navigation";
 
 const CARDS = [
-  { key: "shopware" as const, href: "https://shopware-berlin.vercel.app/", accent: "bg-shopware" },
-  { key: "unifi" as const, href: "https://unifi-berlin.vercel.app/", accent: "bg-unifi" },
+  { key: "shopware" as const, href: "/shopware", accent: "bg-shopware" },
+  { key: "unifi" as const, href: "/unifi", accent: "bg-unifi" },
 ];
 
 export function Brands() {
@@ -27,11 +28,9 @@ export function Brands() {
           {CARDS.map((card) => {
             const tags = t.raw(`${card.key}.tags`) as string[];
             return (
-              <a
+              <Link
                 key={card.key}
                 href={card.href}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="group flex flex-col rounded-card border border-border bg-card p-7 transition-colors hover:border-accent/60"
               >
                 <div className="flex items-start justify-between gap-4">
@@ -67,7 +66,7 @@ export function Brands() {
                 <span className="mt-6 inline-flex items-center gap-1.5 text-sm font-semibold text-accent">
                   {t(`${card.key}.cta`)}
                 </span>
-              </a>
+              </Link>
             );
           })}
         </div>

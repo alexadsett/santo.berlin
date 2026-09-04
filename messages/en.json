@@ -42,14 +42,24 @@
       "name": "shopware.berlin",
       "tagline": "E-commerce & Pickware",
       "description": "Shopware online shops with Pickware integration for inventory, shipping and accounting in one system. A four-step process from consultation to support — shops that actually sell.",
-      "tags": ["Shopware", "Pickware", "ERP & API", "Migration"],
+      "tags": [
+        "Shopware",
+        "Pickware",
+        "ERP & API",
+        "Migration"
+      ],
       "cta": "Visit shopware.berlin"
     },
     "unifi": {
       "name": "unifi.berlin",
       "tagline": "Networks & infrastructure",
       "description": "Certified Ubiquiti partner in Berlin: planning and installing Wi-Fi, video surveillance, access control, telephony and digital signage, all from one team.",
-      "tags": ["Wi-Fi", "Video surveillance", "Access control", "Telephony"],
+      "tags": [
+        "Wi-Fi",
+        "Video surveillance",
+        "Access control",
+        "Telephony"
+      ],
       "cta": "Visit unifi.berlin"
     }
   },
@@ -154,5 +164,166 @@
     "privacyLink": "privacy policy",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "unifi": {
+    "meta": {
+      "title": "unifi.berlin – Certified Ubiquiti Installation Partner in Berlin",
+      "description": "Professional planning, installation and maintenance of UniFi and Ubiquiti networks for businesses and homes in Berlin. Network, Protect, Access, Talk & Connect – all from one partner."
+    },
+    "nav": {
+      "services": "Services",
+      "products": "Products",
+      "process": "Process",
+      "about": "About",
+      "contact": "Contact",
+      "cta": "Get a consultation"
+    },
+    "hero": {
+      "eyebrow": "Certified Ubiquiti Installation Partner · Berlin",
+      "headline": "Your network. Professionally planned and installed.",
+      "highlight": "One ecosystem, one partner.",
+      "subheadline": "We plan, install and maintain the complete Ubiquiti product range – Wi-Fi, video surveillance, access control, telephony and digital displays – for businesses and homes across Berlin.",
+      "ctaPrimary": "Free initial consultation",
+      "ctaSecondary": "View services",
+      "stat1Value": "360°",
+      "stat1Label": "Full UniFi ecosystem",
+      "stat2Value": "Berlin",
+      "stat2Label": "Local, on-site",
+      "stat3Value": "1",
+      "stat3Label": "Single point of contact"
+    },
+    "trustBar": {
+      "label": "We work across the entire Ubiquiti product line"
+    },
+    "services": {
+      "eyebrow": "Services",
+      "title": "The complete UniFi ecosystem – from one partner",
+      "subtitle": "We're generalists across the full Ubiquiti product range. Whether it's a single access point or a full site rollout with cameras, access control and telephony – we plan, supply, install and support it.",
+      "items": [
+        {
+          "title": "UniFi Network",
+          "description": "Wi-Fi coverage planning, switching, routing and structured cabling – fast, secure and centrally managed via the UniFi cloud."
+        },
+        {
+          "title": "UniFi Protect",
+          "description": "Video surveillance with AI-powered object detection, NVR setup and mobile access – for commercial sites, buildings and private properties."
+        },
+        {
+          "title": "UniFi Access",
+          "description": "Modern access control with intercoms, keycards, mobile unlock and complete access logging."
+        },
+        {
+          "title": "UniFi Talk",
+          "description": "Cloud-based VoIP phone system with professional desk phones – seamlessly integrated into your existing network."
+        },
+        {
+          "title": "UniFi Connect",
+          "description": "Digital signage and displays for reception, meeting rooms and storefronts – centrally managed and easy to update."
+        },
+        {
+          "title": "Managed Wi-Fi & Support",
+          "description": "Ongoing remote maintenance, monitoring and proactive care for your network – so it just works, long after installation."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Process",
+      "title": "From consultation to ongoing operations",
+      "subtitle": "A clear, structured process – no friction between multiple vendors.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Consultation",
+          "description": "We assess your needs – on-site or remote – and understand your space, user count and requirements."
+        },
+        {
+          "number": "02",
+          "title": "Planning",
+          "description": "Network design, site planning and a transparent quote with the exact Ubiquiti products required."
+        },
+        {
+          "number": "03",
+          "title": "Installation",
+          "description": "Professional mounting, cabling and configuration – clean, documented and on schedule."
+        },
+        {
+          "number": "04",
+          "title": "Operations & Support",
+          "description": "Monitoring, maintenance and expansion – we stay your point of contact long after installation."
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Why us",
+      "title": "One partner for your entire network",
+      "items": [
+        {
+          "title": "Full product range",
+          "description": "We cover the entire Ubiquiti ecosystem – no patchwork of multiple vendors."
+        },
+        {
+          "title": "Local in Berlin",
+          "description": "Short distances, fast response times and personal on-site service."
+        },
+        {
+          "title": "Business & residential",
+          "description": "From single-family homes to multi-storey office buildings – we scale with your needs."
+        },
+        {
+          "title": "One point of contact",
+          "description": "From the first consultation to ongoing support – personal and reliable."
+        },
+        {
+          "title": "Part of santo.berlin",
+          "description": "unifi.berlin is the Ubiquiti specialisation of santo.berlin, your established IT partner in Berlin."
+        },
+        {
+          "title": "Built to scale",
+          "description": "Scalable solutions that grow with your business – centrally managed via the UniFi cloud."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About us",
+      "title": "Backed by santo.berlin",
+      "body": "unifi.berlin is the Ubiquiti-focused brand of Adsett & Heilmann GbR, known as santo.berlin – your local IT partner in Berlin. Faster, more reliable and more personal than a traditional systems house, we support you from first contact through to the complete solution.",
+      "cta": "More about santo.berlin"
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Let's plan your network",
+      "subtitle": "Send us a message, give us a call, or message us directly on WhatsApp – we'll get back to you shortly.",
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "whatsappLabel": "WhatsApp",
+      "locationLabel": "Location",
+      "location": "Berlin, Germany",
+      "form": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "messagePlaceholder": "Tell us a little about your project – number of rooms, products you need, timeline …",
+        "submit": "Send request",
+        "note": "We usually reply within one business day."
+      }
+    },
+    "footer": {
+      "tagline": "Certified Ubiquiti installation partner in Berlin.",
+      "servicesTitle": "Services",
+      "companyTitle": "Company",
+      "legalTitle": "Legal",
+      "impressum": "Legal notice",
+      "privacy": "Privacy policy",
+      "rights": "All rights reserved."
+    },
+    "legal": {
+      "impressumTitle": "Legal Notice (Impressum)",
+      "datenschutzTitle": "Privacy Policy"
+    },
+    "theme": {
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
   }
 }

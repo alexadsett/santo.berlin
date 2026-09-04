@@ -42,14 +42,24 @@
       "name": "shopware.berlin",
       "tagline": "E-Commerce & Pickware",
       "description": "Shopware-Onlineshops mit Pickware-Integration für Warenwirtschaft, Versand und Buchhaltung aus einer Software. Vier-Schritte-Prozess von der Beratung bis zum Support — Onlineshops, die verkaufen.",
-      "tags": ["Shopware", "Pickware", "ERP & API", "Migration"],
+      "tags": [
+        "Shopware",
+        "Pickware",
+        "ERP & API",
+        "Migration"
+      ],
       "cta": "Zu shopware.berlin"
     },
     "unifi": {
       "name": "unifi.berlin",
       "tagline": "Netzwerke & Infrastruktur",
       "description": "Zertifizierter Ubiquiti-Partner in Berlin: Planung und Installation von WLAN, Videoüberwachung, Zugangskontrolle, Telefonie und Digital Signage aus einer Hand.",
-      "tags": ["WLAN", "Videoüberwachung", "Zugangskontrolle", "Telefonie"],
+      "tags": [
+        "WLAN",
+        "Videoüberwachung",
+        "Zugangskontrolle",
+        "Telefonie"
+      ],
       "cta": "Zu unifi.berlin"
     }
   },
@@ -154,5 +164,166 @@
     "privacyLink": "Datenschutzerklärung",
     "accept": "Akzeptieren",
     "decline": "Ablehnen"
+  },
+  "unifi": {
+    "meta": {
+      "title": "unifi.berlin – Zertifizierter Ubiquiti Installationspartner in Berlin",
+      "description": "Professionelle Planung, Installation und Wartung von UniFi- und Ubiquiti-Netzwerken für Unternehmen und Privatkunden in Berlin. Network, Protect, Access, Talk & Connect – alles aus einer Hand."
+    },
+    "nav": {
+      "services": "Leistungen",
+      "products": "Produkte",
+      "process": "Ablauf",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "cta": "Beratung anfragen"
+    },
+    "hero": {
+      "eyebrow": "Zertifizierter Ubiquiti Installationspartner · Berlin",
+      "headline": "Ihr Netzwerk. Professionell geplant und installiert.",
+      "highlight": "Ein Ökosystem, ein Partner.",
+      "subheadline": "Wir planen, installieren und warten das komplette Ubiquiti-Produktportfolio – WLAN, Videoüberwachung, Zutrittskontrolle, Telefonie und digitale Displays – für Unternehmen, Gewerbe und Privathaushalte in Berlin.",
+      "ctaPrimary": "Kostenlose Erstberatung",
+      "ctaSecondary": "Leistungen ansehen",
+      "stat1Value": "360°",
+      "stat1Label": "Komplettes UniFi-Ökosystem",
+      "stat2Value": "Berlin",
+      "stat2Label": "Lokal vor Ort",
+      "stat3Value": "1",
+      "stat3Label": "Ansprechpartner für alles"
+    },
+    "trustBar": {
+      "label": "Wir arbeiten mit dem gesamten Ubiquiti-Portfolio"
+    },
+    "services": {
+      "eyebrow": "Leistungen",
+      "title": "Das komplette UniFi-Ökosystem – aus einer Hand",
+      "subtitle": "Wir sind Generalisten für das gesamte Ubiquiti-Produktportfolio. Egal ob einzelner Access Point oder komplette Standortvernetzung mit Kameras, Zutritt und Telefonie – wir planen, liefern, installieren und betreuen.",
+      "items": [
+        {
+          "title": "UniFi Network",
+          "description": "WLAN-Ausleuchtung, Switching, Routing und strukturierte Verkabelung – performant, sicher und zentral verwaltbar über die UniFi-Cloud."
+        },
+        {
+          "title": "UniFi Protect",
+          "description": "Videoüberwachung mit KI-gestützter Objekterkennung, NVR-Einrichtung und mobilem Zugriff – für Gewerbeflächen, Gebäude und Privatgrundstücke."
+        },
+        {
+          "title": "UniFi Access",
+          "description": "Moderne Zutrittskontrolle mit Türsprechanlagen, Keycards, Mobile Unlock und lückenloser Zugriffsprotokollierung."
+        },
+        {
+          "title": "UniFi Talk",
+          "description": "Cloudbasierte VoIP-Telefonanlage mit professionellen Tischtelefonen – nahtlos integriert in Ihr bestehendes Netzwerk."
+        },
+        {
+          "title": "UniFi Connect",
+          "description": "Digital Signage und Displays für Empfang, Meetingräume und Schaufenster – zentral verwaltet und einfach zu bespielen."
+        },
+        {
+          "title": "Managed Wi-Fi & Support",
+          "description": "Laufende Fernwartung, Monitoring und proaktive Betreuung Ihres Netzwerks – damit es einfach läuft, auch nach der Installation."
+        }
+      ]
+    },
+    "process": {
+      "eyebrow": "Ablauf",
+      "title": "Von der Beratung bis zum laufenden Betrieb",
+      "subtitle": "Ein klarer, strukturierter Prozess – ohne Reibungsverluste zwischen mehreren Dienstleistern.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Beratung",
+          "description": "Wir analysieren Ihren Bedarf – vor Ort oder remote – und verstehen Ihre Räumlichkeiten, Nutzerzahl und Anforderungen."
+        },
+        {
+          "number": "02",
+          "title": "Planung",
+          "description": "Netzwerkdesign, Standortplanung und ein transparentes Angebot mit exakter Ubiquiti-Produktauswahl."
+        },
+        {
+          "number": "03",
+          "title": "Installation",
+          "description": "Fachgerechte Montage, Verkabelung und Konfiguration – sauber, dokumentiert und termingerecht."
+        },
+        {
+          "number": "04",
+          "title": "Betrieb & Support",
+          "description": "Monitoring, Wartung und Erweiterung – wir bleiben auch nach der Installation Ihr Ansprechpartner."
+        }
+      ]
+    },
+    "whyUs": {
+      "eyebrow": "Warum wir",
+      "title": "Ein Partner für Ihr gesamtes Netzwerk",
+      "items": [
+        {
+          "title": "Volles Produktportfolio",
+          "description": "Wir decken das komplette Ubiquiti-Ökosystem ab – kein Flickenteppich aus mehreren Anbietern."
+        },
+        {
+          "title": "Lokal in Berlin",
+          "description": "Kurze Wege, schnelle Reaktionszeiten und persönlicher Vor-Ort-Service."
+        },
+        {
+          "title": "Gewerbe & Privat",
+          "description": "Vom Einfamilienhaus bis zum mehrstöckigen Bürogebäude – wir skalieren mit Ihrem Bedarf."
+        },
+        {
+          "title": "Ein Ansprechpartner",
+          "description": "Von der ersten Beratung bis zum laufenden Support – persönlich und verbindlich."
+        },
+        {
+          "title": "Teil von santo.berlin",
+          "description": "unifi.berlin ist die Spezialisierung von santo.berlin, Ihrem etablierten IT-Partner in Berlin."
+        },
+        {
+          "title": "Zukunftssicher",
+          "description": "Skalierbare Lösungen, die mit Ihrem Unternehmen mitwachsen – zentral verwaltbar über die UniFi-Cloud."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "Über uns",
+      "title": "santo.berlin steckt dahinter",
+      "body": "unifi.berlin ist die auf Ubiquiti spezialisierte Marke von Adsett & Heilmann GbR, bekannt als santo.berlin – Ihrem lokalen IT-Partner in Berlin. Schneller, zuverlässiger und persönlicher als ein klassisches Systemhaus begleiten wir Sie vom ersten Kontakt bis zur vollständigen Lösung.",
+      "cta": "Mehr über santo.berlin"
+    },
+    "contact": {
+      "eyebrow": "Kontakt",
+      "title": "Lassen Sie uns Ihr Netzwerk planen",
+      "subtitle": "Schreiben Sie uns, rufen Sie an oder schreiben Sie uns direkt auf WhatsApp – wir melden uns kurzfristig zurück.",
+      "phoneLabel": "Telefon",
+      "emailLabel": "E-Mail",
+      "whatsappLabel": "WhatsApp",
+      "locationLabel": "Standort",
+      "location": "Berlin, Deutschland",
+      "form": {
+        "name": "Name",
+        "email": "E-Mail",
+        "message": "Nachricht",
+        "messagePlaceholder": "Erzählen Sie uns kurz von Ihrem Projekt – Anzahl Räume, gewünschte Produkte, Zeitrahmen …",
+        "submit": "Anfrage senden",
+        "note": "Wir antworten in der Regel innerhalb eines Werktags."
+      }
+    },
+    "footer": {
+      "tagline": "Zertifizierter Ubiquiti Installationspartner in Berlin.",
+      "servicesTitle": "Leistungen",
+      "companyTitle": "Unternehmen",
+      "legalTitle": "Rechtliches",
+      "impressum": "Impressum",
+      "privacy": "Datenschutz",
+      "rights": "Alle Rechte vorbehalten."
+    },
+    "legal": {
+      "impressumTitle": "Impressum",
+      "datenschutzTitle": "Datenschutzerklärung"
+    },
+    "theme": {
+      "light": "Hell",
+      "dark": "Dunkel",
+      "system": "System"
+    }
   }
 }

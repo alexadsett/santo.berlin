@@ -7,8 +7,6 @@ import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { ThemeProvider } from "@/components/theme-provider";
-import { SiteHeader } from "@/components/site-header";
-import { SiteFooter } from "@/components/site-footer";
 import { Analytics } from "@/components/analytics";
 import { JsonLd } from "@/components/json-ld";
 import { SITE_URL, buildAlternates } from "@/lib/seo";
@@ -84,11 +82,7 @@ export default async function LocaleLayout({
             >
               Skip to content
             </a>
-            <SiteHeader />
-            <main id="main" className="flex-1">
-              {children}
-            </main>
-            <SiteFooter />
+            {children}
             <Analytics />
           </NextIntlClientProvider>
         </ThemeProvider>

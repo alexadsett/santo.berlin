@@ -29,6 +29,49 @@
   --shopware: #f5b944;
 }
 
+.theme-unifi {
+  --background: #f6f8fb;
+  --background-elevated: #edf1f7;
+  --surface: #ffffff;
+  --surface-border: rgba(15, 23, 42, 0.09);
+  --foreground: #0b0f1a;
+  --muted: #5b6472;
+  --accent: #1f66e0;
+  --accent-cyan: #0891b2;
+  --accent-soft: rgba(31, 102, 224, 0.08);
+  --on-accent: #ffffff;
+  --grid-line: rgba(15, 23, 42, 0.06);
+}
+
+.dark .theme-unifi {
+  --background: #05070d;
+  --background-elevated: #0b0f1a;
+  --surface: #0e1420;
+  --surface-border: rgba(148, 176, 216, 0.14);
+  --foreground: #eef2fa;
+  --muted: #8d97ad;
+  --accent: #2f8bff;
+  --accent-cyan: #22d3ee;
+  --accent-soft: rgba(47, 139, 255, 0.14);
+  --on-accent: #05070d;
+  --grid-line: rgba(148, 176, 216, 0.08);
+}
+
+.theme-shopware {
+  --background: #fbf6ec;
+  --background-soft: #f4ecd8;
+  --foreground: #16130f;
+  --foreground-muted: #57503f;
+  --accent: #cc9a3d;
+  --accent-soft: #eeddb2;
+  --line: #e4d9bd;
+
+  --pickware-navy: #000826;
+  --pickware-blue: #19a6eb;
+  --pickware-blue-deep: #0b87d2;
+  --pickware-ice: #d8f2fc;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -43,6 +86,34 @@
   --radius-card: var(--radius);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* unifi.berlin scope */
+  --color-background-elevated: var(--background-elevated);
+  --color-surface: var(--surface);
+  --color-surface-border: var(--surface-border);
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-soft: var(--accent-soft);
+  --color-on-accent: var(--on-accent);
+  --color-grid-line: var(--grid-line);
+
+  /* shopware.berlin scope */
+  --color-cream: var(--background);
+  --color-cream-soft: var(--background-soft);
+  --color-ink: var(--foreground);
+  --color-ink-muted: var(--foreground-muted);
+  --color-gold: var(--accent);
+  --color-gold-soft: var(--accent-soft);
+  --color-line: var(--line);
+  --color-pickware-navy: var(--pickware-navy);
+  --color-pickware-blue: var(--pickware-blue);
+  --color-pickware-blue-deep: var(--pickware-blue-deep);
+  --color-pickware-ice: var(--pickware-ice);
+  --font-display: var(--font-fraunces);
+}
+
+.theme-shopware ::selection {
+  background: var(--accent);
+  color: var(--foreground);
 }
 
 * {

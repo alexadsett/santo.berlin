@@ -26,14 +26,14 @@ const data = {
     {
       "@type": "ProfessionalService",
       name: "unifi.berlin",
-      url: "https://unifi-berlin.vercel.app/",
+      url: `${SITE_URL}/unifi`,
       description:
         "Zertifizierter Ubiquiti-Partner: WLAN, Videoüberwachung, Zugangskontrolle und Telefonie.",
     },
     {
       "@type": "ProfessionalService",
       name: "shopware.berlin",
-      url: "https://shopware-berlin.vercel.app/",
+      url: `${SITE_URL}/shopware`,
       description:
         "Shopware-Onlineshops mit Pickware-Integration für Warenwirtschaft, Versand und Buchhaltung.",
     },
