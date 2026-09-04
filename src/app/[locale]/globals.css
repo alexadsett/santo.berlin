@@ -94,21 +94,6 @@ body {
   }
 }
 
-@keyframes mesh-drift {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(var(--drift-x, 6px), calc(var(--drift-y, 6px) * -1));
-  }
-  50% {
-    transform: translate(calc(var(--drift-x, 6px) * -0.6), calc(var(--drift-y, 6px) * 0.8));
-  }
-  75% {
-    transform: translate(calc(var(--drift-x, 6px) * 0.8), var(--drift-y, 6px));
-  }
-}
-
 @keyframes mesh-flow {
   to {
     stroke-dashoffset: -32;
@@ -121,17 +106,12 @@ body {
   animation: mesh-pulse 3.4s ease-in-out infinite;
 }
 
-.animate-mesh-drift {
-  animation: mesh-drift 7s ease-in-out infinite;
-}
-
 .animate-mesh-flow {
   animation: mesh-flow 1.6s linear infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .animate-mesh-pulse,
-  .animate-mesh-drift,
   .animate-mesh-flow {
     animation: none;
   }
