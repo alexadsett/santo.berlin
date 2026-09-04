@@ -192,27 +192,57 @@
       "items": [
         {
           "title": "UniFi Network",
-          "description": "WLAN-Ausleuchtung, Switching, Routing und strukturierte Verkabelung – performant, sicher und zentral verwaltbar über die UniFi-Cloud."
+          "description": "WLAN-Ausleuchtung, Switching, Routing und strukturierte Verkabelung – performant, sicher und zentral verwaltbar über die UniFi-Cloud.",
+          "details": [
+            "WLAN-Ausleuchtung & Standortplanung",
+            "Switching & strukturierte Verkabelung",
+            "Zentrale Verwaltung über die UniFi-Cloud"
+          ]
         },
         {
           "title": "UniFi Protect",
-          "description": "Videoüberwachung mit KI-gestützter Objekterkennung, NVR-Einrichtung und mobilem Zugriff – für Gewerbeflächen, Gebäude und Privatgrundstücke."
+          "description": "Videoüberwachung mit KI-gestützter Objekterkennung, NVR-Einrichtung und mobilem Zugriff – für Gewerbeflächen, Gebäude und Privatgrundstücke.",
+          "details": [
+            "KI-gestützte Objekterkennung",
+            "NVR-Einrichtung & Speicherplanung",
+            "Mobiler Zugriff von überall"
+          ]
         },
         {
           "title": "UniFi Access",
-          "description": "Moderne Zutrittskontrolle mit Türsprechanlagen, Keycards, Mobile Unlock und lückenloser Zugriffsprotokollierung."
+          "description": "Moderne Zutrittskontrolle mit Türsprechanlagen, Keycards, Mobile Unlock und lückenloser Zugriffsprotokollierung.",
+          "details": [
+            "Türsprechanlagen & Keycards",
+            "Mobile Unlock per Smartphone",
+            "Lückenlose Zugriffsprotokollierung"
+          ]
         },
         {
           "title": "UniFi Talk",
-          "description": "Cloudbasierte VoIP-Telefonanlage mit professionellen Tischtelefonen – nahtlos integriert in Ihr bestehendes Netzwerk."
+          "description": "Cloudbasierte VoIP-Telefonanlage mit professionellen Tischtelefonen – nahtlos integriert in Ihr bestehendes Netzwerk.",
+          "details": [
+            "Cloudbasierte VoIP-Telefonanlage",
+            "Professionelle Tischtelefone",
+            "Nahtlose Netzwerkintegration"
+          ]
         },
         {
           "title": "UniFi Connect",
-          "description": "Digital Signage und Displays für Empfang, Meetingräume und Schaufenster – zentral verwaltet und einfach zu bespielen."
+          "description": "Digital Signage und Displays für Empfang, Meetingräume und Schaufenster – zentral verwaltet und einfach zu bespielen.",
+          "details": [
+            "Digital Signage für Empfang & Meetingräume",
+            "Zentrale Inhaltsverwaltung",
+            "Einfach zu bespielen, ohne IT-Wissen"
+          ]
         },
         {
           "title": "Managed Wi-Fi & Support",
-          "description": "Laufende Fernwartung, Monitoring und proaktive Betreuung Ihres Netzwerks – damit es einfach läuft, auch nach der Installation."
+          "description": "Laufende Fernwartung, Monitoring und proaktive Betreuung Ihres Netzwerks – damit es einfach läuft, auch nach der Installation.",
+          "details": [
+            "Laufende Fernwartung & Monitoring",
+            "Proaktive Betreuung Ihres Netzwerks",
+            "Fester Ansprechpartner nach der Installation"
+          ]
         }
       ]
     },
@@ -224,22 +254,46 @@
         {
           "number": "01",
           "title": "Beratung",
-          "description": "Wir analysieren Ihren Bedarf – vor Ort oder remote – und verstehen Ihre Räumlichkeiten, Nutzerzahl und Anforderungen."
+          "description": "Wir analysieren Ihren Bedarf – vor Ort oder remote – und verstehen Ihre Räumlichkeiten, Nutzerzahl und Anforderungen.",
+          "duration": "30–60 Minuten",
+          "details": [
+            "Bedarfsanalyse vor Ort oder remote",
+            "Räumlichkeiten & Nutzerzahl erfassen",
+            "Erste Einschätzung zu Umfang und Kosten"
+          ]
         },
         {
           "number": "02",
           "title": "Planung",
-          "description": "Netzwerkdesign, Standortplanung und ein transparentes Angebot mit exakter Ubiquiti-Produktauswahl."
+          "description": "Netzwerkdesign, Standortplanung und ein transparentes Angebot mit exakter Ubiquiti-Produktauswahl.",
+          "duration": "1–2 Wochen",
+          "details": [
+            "Netzwerkdesign & Standortplanung",
+            "Exakte Ubiquiti-Produktauswahl",
+            "Transparentes, verbindliches Angebot"
+          ]
         },
         {
           "number": "03",
           "title": "Installation",
-          "description": "Fachgerechte Montage, Verkabelung und Konfiguration – sauber, dokumentiert und termingerecht."
+          "description": "Fachgerechte Montage, Verkabelung und Konfiguration – sauber, dokumentiert und termingerecht.",
+          "duration": "1–5 Tage, je nach Umfang",
+          "details": [
+            "Fachgerechte Montage & Verkabelung",
+            "Konfiguration & Inbetriebnahme",
+            "Saubere Dokumentation"
+          ]
         },
         {
           "number": "04",
           "title": "Betrieb & Support",
-          "description": "Monitoring, Wartung und Erweiterung – wir bleiben auch nach der Installation Ihr Ansprechpartner."
+          "description": "Monitoring, Wartung und Erweiterung – wir bleiben auch nach der Installation Ihr Ansprechpartner.",
+          "duration": "Laufend",
+          "details": [
+            "Monitoring & proaktive Wartung",
+            "Erweiterung bei wachsendem Bedarf",
+            "Fester Ansprechpartner"
+          ]
         }
       ]
     },

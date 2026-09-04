@@ -192,27 +192,57 @@
       "items": [
         {
           "title": "UniFi Network",
-          "description": "Wi-Fi coverage planning, switching, routing and structured cabling – fast, secure and centrally managed via the UniFi cloud."
+          "description": "Wi-Fi coverage planning, switching, routing and structured cabling – fast, secure and centrally managed via the UniFi cloud.",
+          "details": [
+            "Wi-Fi coverage & site planning",
+            "Switching & structured cabling",
+            "Central management via the UniFi cloud"
+          ]
         },
         {
           "title": "UniFi Protect",
-          "description": "Video surveillance with AI-powered object detection, NVR setup and mobile access – for commercial sites, buildings and private properties."
+          "description": "Video surveillance with AI-powered object detection, NVR setup and mobile access – for commercial sites, buildings and private properties.",
+          "details": [
+            "AI-powered object detection",
+            "NVR setup & storage planning",
+            "Mobile access from anywhere"
+          ]
         },
         {
           "title": "UniFi Access",
-          "description": "Modern access control with intercoms, keycards, mobile unlock and complete access logging."
+          "description": "Modern access control with intercoms, keycards, mobile unlock and complete access logging.",
+          "details": [
+            "Intercoms & keycards",
+            "Mobile unlock via smartphone",
+            "Complete access logging"
+          ]
         },
         {
           "title": "UniFi Talk",
-          "description": "Cloud-based VoIP phone system with professional desk phones – seamlessly integrated into your existing network."
+          "description": "Cloud-based VoIP phone system with professional desk phones – seamlessly integrated into your existing network.",
+          "details": [
+            "Cloud-based VoIP phone system",
+            "Professional desk phones",
+            "Seamless network integration"
+          ]
         },
         {
           "title": "UniFi Connect",
-          "description": "Digital signage and displays for reception, meeting rooms and storefronts – centrally managed and easy to update."
+          "description": "Digital signage and displays for reception, meeting rooms and storefronts – centrally managed and easy to update.",
+          "details": [
+            "Digital signage for reception & meeting rooms",
+            "Central content management",
+            "Easy to update, no IT knowledge needed"
+          ]
         },
         {
           "title": "Managed Wi-Fi & Support",
-          "description": "Ongoing remote maintenance, monitoring and proactive care for your network – so it just works, long after installation."
+          "description": "Ongoing remote maintenance, monitoring and proactive care for your network – so it just works, long after installation.",
+          "details": [
+            "Ongoing remote maintenance & monitoring",
+            "Proactive care for your network",
+            "One dedicated contact after installation"
+          ]
         }
       ]
     },
@@ -224,22 +254,46 @@
         {
           "number": "01",
           "title": "Consultation",
-          "description": "We assess your needs – on-site or remote – and understand your space, user count and requirements."
+          "description": "We assess your needs – on-site or remote – and understand your space, user count and requirements.",
+          "duration": "30–60 minutes",
+          "details": [
+            "Needs assessment on-site or remote",
+            "Capture space & user count",
+            "Initial read on scope and cost"
+          ]
         },
         {
           "number": "02",
           "title": "Planning",
-          "description": "Network design, site planning and a transparent quote with the exact Ubiquiti products required."
+          "description": "Network design, site planning and a transparent quote with the exact Ubiquiti products required.",
+          "duration": "1–2 weeks",
+          "details": [
+            "Network design & site planning",
+            "Exact Ubiquiti product selection",
+            "Transparent, binding quote"
+          ]
         },
         {
           "number": "03",
           "title": "Installation",
-          "description": "Professional mounting, cabling and configuration – clean, documented and on schedule."
+          "description": "Professional mounting, cabling and configuration – clean, documented and on schedule.",
+          "duration": "1–5 days, depending on scope",
+          "details": [
+            "Professional mounting & cabling",
+            "Configuration & commissioning",
+            "Clean documentation"
+          ]
         },
         {
           "number": "04",
           "title": "Operations & Support",
-          "description": "Monitoring, maintenance and expansion – we stay your point of contact long after installation."
+          "description": "Monitoring, maintenance and expansion – we stay your point of contact long after installation.",
+          "duration": "Ongoing",
+          "details": [
+            "Monitoring & proactive maintenance",
+            "Expansion as your needs grow",
+            "One dedicated point of contact"
+          ]
         }
       ]
     },
