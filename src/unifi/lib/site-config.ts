@@ -3,7 +3,7 @@ export const siteConfig = {
   domains: ["unifi.berlin", "ubiquiti.berlin"],
   legalName: "Adsett & Heilmann GbR",
   parentBrand: "santo.berlin",
-  parentBrandUrl: "https://santo.berlin",
+  parentBrandUrl: "https://www.santo.berlin",
   phone: "+49 30 23324319",
   phoneHref: "tel:+493023324319",
   email: "info@santo.berlin",

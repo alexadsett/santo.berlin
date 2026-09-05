@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { routing } from "@/i18n/routing";
 
-export const SITE_URL = "https://santo.berlin";
+export const SITE_URL = "https://www.santo.berlin";
 
 export function localizedPath(locale: string, path: string) {
   if (locale === routing.defaultLocale) return path;
