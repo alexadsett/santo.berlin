@@ -8,7 +8,6 @@ import { process, type Lang } from "@/shopware/content/copy";
 export function Process({ lang }: { lang: Lang }) {
   const t = process[lang];
   const [active, setActive] = useState(0);
-  const step = t.steps[active];
 
   return (
     <section className="mx-auto max-w-6xl px-6 py-20 md:py-28">
@@ -64,30 +63,33 @@ export function Process({ lang }: { lang: Lang }) {
           })}
         </ol>
 
-        <div
-          key={active}
-          className="rounded-2xl border border-border bg-muted p-8 sm:p-10"
-        >
-          <div className="flex flex-wrap items-center gap-3">
-            <span className="font-semibold text-3xl text-accent">
-              {String(active + 1).padStart(2, "0")}
-            </span>
-            <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium uppercase tracking-[0.1em] text-muted-foreground">
-              {step.duration}
-            </span>
-          </div>
-          <h3 className="mt-4 text-2xl font-medium text-foreground">{step.title}</h3>
-          <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
-            {step.description}
-          </p>
-          <ul className="mt-6 grid gap-2.5 sm:grid-cols-2">
-            {step.details.map((detail) => (
-              <li key={detail} className="flex items-start gap-2 text-sm">
-                <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-accent" strokeWidth={2.5} />
-                <span className="text-foreground/90">{detail}</span>
-              </li>
-            ))}
-          </ul>
+        <div className="rounded-2xl border border-border bg-muted p-8 sm:p-10">
+          {/* All steps render in the DOM (not just the active one) so the full
+              content stays crawlable — only the active panel is visible. */}
+          {t.steps.map((s, i) => (
+            <div key={s.title} hidden={i !== active}>
+              <div className="flex flex-wrap items-center gap-3">
+                <span className="font-semibold text-3xl text-accent">
+                  {String(i + 1).padStart(2, "0")}
+                </span>
+                <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium uppercase tracking-[0.1em] text-muted-foreground">
+                  {s.duration}
+                </span>
+              </div>
+              <h3 className="mt-4 text-2xl font-medium text-foreground">{s.title}</h3>
+              <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
+                {s.description}
+              </p>
+              <ul className="mt-6 grid gap-2.5 sm:grid-cols-2">
+                {s.details.map((detail) => (
+                  <li key={detail} className="flex items-start gap-2 text-sm">
+                    <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-accent" strokeWidth={2.5} />
+                    <span className="text-foreground/90">{detail}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </section>

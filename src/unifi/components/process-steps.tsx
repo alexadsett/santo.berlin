@@ -14,7 +14,6 @@ export function ProcessSteps() {
     details: string[];
   }[];
   const [active, setActive] = useState(0);
-  const step = steps[active];
 
   return (
     <section id="process" className="relative border-t border-border py-24">
@@ -71,25 +70,31 @@ export function ProcessSteps() {
             })}
           </ol>
 
-          <div key={active} className="rounded-2xl border border-border bg-card/50 p-8 sm:p-10">
-            <div className="flex flex-wrap items-center gap-3">
-              <span className="font-mono text-3xl text-accent">{step.number}</span>
-              <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium uppercase tracking-[0.1em] text-muted-foreground">
-                {step.duration}
-              </span>
-            </div>
-            <h3 className="mt-4 text-2xl font-medium text-foreground">{step.title}</h3>
-            <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
-              {step.description}
-            </p>
-            <ul className="mt-6 grid gap-2.5 sm:grid-cols-2">
-              {step.details.map((detail) => (
-                <li key={detail} className="flex items-start gap-2 text-sm">
-                  <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-accent" strokeWidth={2.5} />
-                  <span className="text-foreground/90">{detail}</span>
-                </li>
-              ))}
-            </ul>
+          <div className="rounded-2xl border border-border bg-card/50 p-8 sm:p-10">
+            {/* All steps render in the DOM (not just the active one) so the full
+                content stays crawlable — only the active panel is visible. */}
+            {steps.map((s, i) => (
+              <div key={s.number} hidden={i !== active}>
+                <div className="flex flex-wrap items-center gap-3">
+                  <span className="font-mono text-3xl text-accent">{s.number}</span>
+                  <span className="rounded-full border border-border bg-background px-3 py-1 text-xs font-medium uppercase tracking-[0.1em] text-muted-foreground">
+                    {s.duration}
+                  </span>
+                </div>
+                <h3 className="mt-4 text-2xl font-medium text-foreground">{s.title}</h3>
+                <p className="mt-3 max-w-xl text-base leading-relaxed text-muted-foreground">
+                  {s.description}
+                </p>
+                <ul className="mt-6 grid gap-2.5 sm:grid-cols-2">
+                  {s.details.map((detail) => (
+                    <li key={detail} className="flex items-start gap-2 text-sm">
+                      <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-accent" strokeWidth={2.5} />
+                      <span className="text-foreground/90">{detail}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </div>

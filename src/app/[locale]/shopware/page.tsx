@@ -7,6 +7,7 @@ import { Pickware } from "@/shopware/components/pickware";
 import { Location } from "@/shopware/components/location";
 import { Faq } from "@/shopware/components/faq";
 import { Contact } from "@/shopware/components/contact";
+import { ShopwareJsonLd } from "@/shopware/components/json-ld";
 import { locales, type Lang } from "@/shopware/content/copy";
 
 function isLang(value: string): value is Lang {
@@ -24,6 +25,7 @@ export default async function Home({
 
   return (
     <>
+      <ShopwareJsonLd lang={lang} />
       <Hero lang={lang} />
       <About lang={lang} />
       <Services lang={lang} />
