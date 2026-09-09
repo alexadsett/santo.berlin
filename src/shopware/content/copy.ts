@@ -393,7 +393,7 @@ export type Reference = {
 export const references: Record<Lang, { eyebrow: string; title: string; items: Reference[] }> = {
   de: {
     eyebrow: "Referenzen",
-    title: "Vertrauen von echten Shops.",
+    title: "Shops, die uns vertrauen.",
     items: [
       {
         name: "SchneidersLaden",
@@ -406,7 +406,7 @@ export const references: Record<Lang, { eyebrow: string; title: string; items: R
   },
   en: {
     eyebrow: "References",
-    title: "Trusted by real shops.",
+    title: "Shops that trust us.",
     items: [
       {
         name: "SchneidersLaden",

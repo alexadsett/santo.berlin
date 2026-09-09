@@ -109,10 +109,10 @@ export function Hero({ lang }: { lang: Lang }) {
               <span className="text-background/70">{t.mock.syncLabel}</span>
               <span className="font-medium text-pickware-blue">Pickware ✓</span>
             </div>
-          </div>
 
-          <div className="absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-background text-foreground shadow-[0_20px_45px_-20px_rgba(22,19,15,0.35)] sm:h-36 sm:w-36">
-            <PickwareSeal className="h-full w-full p-3" />
+            <div className="absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-background text-foreground shadow-[0_20px_45px_-20px_rgba(22,19,15,0.35)] sm:h-36 sm:w-36">
+              <PickwareSeal className="h-full w-full p-3" />
+            </div>
           </div>
         </div>
       </div>
