@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { ArrowUpRight, MapPin, ShieldCheck, Sparkles } from "lucide-react";
 import { Eyebrow } from "@/shopware/components/eyebrow";
-import { PickwareSeal } from "@/shopware/components/pickware-seal";
 import { hero, localizedPath, type Lang } from "@/shopware/content/copy";
 
 export function Hero({ lang }: { lang: Lang }) {
@@ -15,20 +14,15 @@ export function Hero({ lang }: { lang: Lang }) {
         aria-hidden="true"
       />
       <div className="relative mx-auto max-w-6xl px-6 pb-20 pt-16 md:pb-28 md:pt-24">
-        <div className="flex items-start justify-between gap-6">
-          <Eyebrow icon={MapPin}>{t.eyebrow}</Eyebrow>
-          <div className="relative hidden h-20 w-20 shrink-0 rounded-full bg-background text-foreground shadow-[0_15px_30px_-15px_rgba(22,19,15,0.35)] sm:block">
-            <PickwareSeal className="h-full w-full p-2.5" />
-          </div>
-        </div>
+        <Eyebrow icon={MapPin}>{t.eyebrow}</Eyebrow>
 
-        <h1 className="mt-6 max-w-xl font-semibold text-[2.75rem] leading-[1.05] tracking-tight text-foreground sm:text-6xl">
+        <h1 className="mt-6 max-w-2xl font-semibold text-[2.75rem] leading-[1.05] tracking-tight text-foreground sm:text-6xl md:text-7xl">
           {t.titleStart}{" "}
           <em className="not-italic font-semibold text-accent">{t.titleEmphasis}</em>{" "}
           {t.titleEnd}
         </h1>
 
-        <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground">
+        <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
           {t.body}
         </p>
 
