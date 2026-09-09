@@ -37,11 +37,11 @@
   "brands": {
     "eyebrow": "Eigene Spezialseiten",
     "title": "Für zwei Leistungen betreiben wir eigene Seiten.",
-    "description": "Bei Onlineshops und Netzwerken lohnt sich der genauere Blick. Deshalb bündeln wir dieses Know-how auf zwei eigenen Domains — mit demselben Team und Anspruch wie hier auf santo.berlin.",
+    "description": "Bei Onlineshops und Netzwerken zahlt sich Spezialwissen aus. Deshalb bündeln wir es auf zwei eigenen Domains — mit demselben Team und Anspruch wie hier.",
     "shopware": {
       "name": "shopware.berlin",
       "tagline": "E-Commerce & Pickware",
-      "description": "Shopware-Onlineshops mit Pickware-Integration für Warenwirtschaft, Versand und Buchhaltung aus einer Software. Vier-Schritte-Prozess von der Beratung bis zum Support — Onlineshops, die verkaufen.",
+      "description": "Shopware-Onlineshops mit Pickware-Integration für Warenwirtschaft, Versand und Buchhaltung — alles aus einer Software. Von der Beratung bis zum Support: Onlineshops, die verkaufen.",
       "tags": [
         "Shopware",
         "Pickware",
@@ -74,7 +74,7 @@
       },
       {
         "title": "Netzwerke & IT-Infrastruktur",
-        "description": "Planung und Installation von WLAN, Kameras und Zugangskontrolle auf Ubiquiti-Basis. Spezialisiert über unifi.berlin."
+        "description": "Planung und Installation von WLAN, Kameras und Zugangskontrolle auf Ubiquiti-Basis — unsere Spezialisierung über unifi.berlin."
       },
       {
         "title": "Systeme & Integrationen",
@@ -249,7 +249,7 @@
     "process": {
       "eyebrow": "Ablauf",
       "title": "Von der Beratung bis zum laufenden Betrieb",
-      "subtitle": "Ein klarer, strukturierter Prozess – ohne Reibungsverluste zwischen mehreren Dienstleistern.",
+      "subtitle": "Ein klarer Prozess – ohne Reibungsverluste zwischen mehreren Dienstleistern.",
       "steps": [
         {
           "number": "01",
@@ -330,7 +330,7 @@
     "about": {
       "eyebrow": "Über uns",
       "title": "santo.berlin steckt dahinter",
-      "body": "unifi.berlin ist die auf Ubiquiti spezialisierte Marke von Adsett & Heilmann GbR, bekannt als santo.berlin – Ihrem lokalen IT-Partner in Berlin. Schneller, zuverlässiger und persönlicher als ein klassisches Systemhaus begleiten wir Sie vom ersten Kontakt bis zur vollständigen Lösung.",
+      "body": "unifi.berlin ist die auf Ubiquiti spezialisierte Marke von Adsett & Heilmann GbR, Ihrem lokalen IT-Partner in Berlin. Schneller, zuverlässiger und persönlicher als ein klassisches Systemhaus begleiten wir Sie vom ersten Kontakt bis zur vollständigen Lösung.",
       "cta": "Mehr über santo.berlin"
     },
     "contact": {

@@ -11,7 +11,7 @@ export function PickwareSeal({ className = "" }: { className?: string }) {
         <circle cx="100" cy="100" r="78" fill="none" />
         <text fontSize="11.5" letterSpacing="2" fill="currentColor">
           <textPath href={`#${id}`} startOffset="0%">
-            PICKWARE PARTNER · BERLIN MITTE · SANTO.BERLIN ·
+            PICKWARE PARTNER · BERLIN FRIEDRICHSHAIN · SANTO.BERLIN ·
           </textPath>
         </text>
       </svg>

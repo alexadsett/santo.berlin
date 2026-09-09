@@ -37,11 +37,11 @@
   "brands": {
     "eyebrow": "Dedicated sites",
     "title": "For two services, we run dedicated sites.",
-    "description": "Online shops and networks each deserve a closer look. So we bundle that know-how on two domains of our own — same team, same standard as here on santo.berlin.",
+    "description": "Online shops and networks reward real specialization. So we bundle that know-how on two domains of our own — same team, same standard as here.",
     "shopware": {
       "name": "shopware.berlin",
       "tagline": "E-commerce & Pickware",
-      "description": "Shopware online shops with Pickware integration for inventory, shipping and accounting in one system. A four-step process from consultation to support — shops that actually sell.",
+      "description": "Shopware online shops with Pickware integration for inventory, shipping and accounting — all in one system. From consultation to support: shops that actually sell.",
       "tags": [
         "Shopware",
         "Pickware",
@@ -74,7 +74,7 @@
       },
       {
         "title": "Networks & IT infrastructure",
-        "description": "Planning and installation of Wi-Fi, cameras and access control on Ubiquiti hardware. Specialised through unifi.berlin."
+        "description": "Planning and installation of Wi-Fi, cameras and access control on Ubiquiti hardware — our specialty over at unifi.berlin."
       },
       {
         "title": "Systems & integrations",
@@ -249,7 +249,7 @@
     "process": {
       "eyebrow": "Process",
       "title": "From consultation to ongoing operations",
-      "subtitle": "A clear, structured process – no friction between multiple vendors.",
+      "subtitle": "A clear process – no friction between multiple vendors.",
       "steps": [
         {
           "number": "01",
@@ -330,7 +330,7 @@
     "about": {
       "eyebrow": "About us",
       "title": "Backed by santo.berlin",
-      "body": "unifi.berlin is the Ubiquiti-focused brand of Adsett & Heilmann GbR, known as santo.berlin – your local IT partner in Berlin. Faster, more reliable and more personal than a traditional systems house, we support you from first contact through to the complete solution.",
+      "body": "unifi.berlin is the Ubiquiti-focused brand of Adsett & Heilmann GbR, your local IT partner in Berlin. Faster, more reliable and more personal than a traditional systems house, we support you from first contact through to the complete solution.",
       "cta": "More about santo.berlin"
     },
     "contact": {
