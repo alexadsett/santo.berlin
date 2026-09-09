@@ -4,6 +4,7 @@ import { About } from "@/shopware/components/about";
 import { Services } from "@/shopware/components/services";
 import { Process } from "@/shopware/components/process";
 import { Pickware } from "@/shopware/components/pickware";
+import { References } from "@/shopware/components/references";
 import { Location } from "@/shopware/components/location";
 import { Faq } from "@/shopware/components/faq";
 import { Contact } from "@/shopware/components/contact";
@@ -31,6 +32,7 @@ export default async function Home({
       <Services lang={lang} />
       <Process lang={lang} />
       <Pickware lang={lang} />
+      <References lang={lang} />
       <Location lang={lang} />
       <Faq lang={lang} />
       <Contact lang={lang} />

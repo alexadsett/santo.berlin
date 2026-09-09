@@ -383,6 +383,42 @@ export const pickware = {
   },
 };
 
+export type Reference = {
+  name: string;
+  description: string;
+  tag: string;
+  url: string;
+};
+
+export const references: Record<Lang, { eyebrow: string; title: string; items: Reference[] }> = {
+  de: {
+    eyebrow: "Referenzen",
+    title: "Vertrauen von echten Shops.",
+    items: [
+      {
+        name: "SchneidersLaden",
+        description:
+          "Seit über 25 Jahren eine Institution für Modular- und Vintage-Synthesizer in Berlin-Neukölln. Wir betreuen ihren Shopware-Shop laufend – Updates, Wartung und schnelle Hilfe im Tagesgeschäft.",
+        tag: "Laufende Betreuung",
+        url: "https://www.schneidersladen.de",
+      },
+    ],
+  },
+  en: {
+    eyebrow: "References",
+    title: "Trusted by real shops.",
+    items: [
+      {
+        name: "SchneidersLaden",
+        description:
+          "A Berlin-Neukölln institution for modular and vintage synthesizers for over 25 years. We handle ongoing maintenance for their Shopware shop – updates, upkeep, and fast help when it matters.",
+        tag: "Ongoing support",
+        url: "https://www.schneidersladen.de",
+      },
+    ],
+  },
+};
+
 export const faq = {
   de: {
     eyebrow: "Häufige Fragen",
