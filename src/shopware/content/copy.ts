@@ -58,12 +58,6 @@ export const hero = {
     ctaSecondary: "Leistungen ansehen",
     badge1: "Zertifizierter Pickware Partner",
     badge2: "Spezialisiert auf Shopware",
-    mock: {
-      badge: "Shop · Live",
-      statsProducts: "128 Produkte",
-      statsGrowth: "+18 % ggü. Vorwoche",
-      syncLabel: "Lagerbestand synchronisiert",
-    },
   },
   en: {
     eyebrow: "Shopware Agency · Berlin Friedrichshain",
@@ -75,27 +69,8 @@ export const hero = {
     ctaSecondary: "See our services",
     badge1: "Certified Pickware partner",
     badge2: "Specialized in Shopware",
-    mock: {
-      badge: "Store · Live",
-      statsProducts: "128 products",
-      statsGrowth: "+18% vs. last week",
-      syncLabel: "Inventory synced",
-    },
   },
 };
-
-export const heroProducts = [
-  { icon: "Shirt", price: 49 },
-  { icon: "Headphones", price: 89 },
-  { icon: "Watch", price: 129 },
-  { icon: "Backpack", price: 35 },
-  { icon: "Gem", price: 199 },
-  { icon: "Lamp", price: 59 },
-] as const;
-
-export function formatPrice(amount: number, lang: Lang) {
-  return lang === "de" ? `${amount} €` : `€${amount}`;
-}
 
 export function siteDescription(lang: Lang) {
   return lang === "de"
