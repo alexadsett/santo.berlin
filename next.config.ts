@@ -6,6 +6,19 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   async redirects() {
     return [
+      // leftover URLs from the old Squarespace site, still indexed by Google —
+      // redirect to their modern equivalents instead of 404ing.
+      {
+        source: "/dienstleistungen",
+        destination: "/#leistungen",
+        permanent: true,
+      },
+      {
+        source: "/contact",
+        destination: "/en#kontakt",
+        permanent: true,
+      },
+
       // legal pages are consolidated to one canonical /impressum, /datenschutz —
       // these take priority over the general per-brand rules below.
       {
