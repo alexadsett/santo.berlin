@@ -99,9 +99,15 @@ const nextConfig: NextConfig = {
 
       // shopware.berlin/* -> www.santo.berlin/shopware/*  (prefix scheme already matches)
       {
-        source: "/:path*",
+        source: "/",
         has: [{ type: "host", value: "shopware.berlin" }],
-        destination: "https://www.santo.berlin/shopware/:path*",
+        destination: "https://www.santo.berlin/shopware",
+        permanent: true,
+      },
+      {
+        source: "/:path+",
+        has: [{ type: "host", value: "shopware.berlin" }],
+        destination: "https://www.santo.berlin/shopware/:path+",
         permanent: true,
       },
     ];
